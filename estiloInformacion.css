@@ -1,0 +1,34 @@
+.menu{
+	position: fixed;
+	background: #FDBE14;
+	width: 100%;
+	height: 100px;
+}
+.logo{
+	top: 0;
+	position: absolute;
+	background: #FDBE14;
+	width: 70px;
+	height: 85px;
+}
+.titulos{
+	background: #FDBE14;
+}
+h1{	
+	line-height: 0;
+	text-align: center;
+}
+h2{
+	line-height: 0;
+	text-align: center;
+}
+.Informacion{
+	position: absolute;
+	top: 120px;
+	width: 100%;
+	height: 75px;
+}
+.bVolver{
+	position: absolute;
+	top: -18px;
+}

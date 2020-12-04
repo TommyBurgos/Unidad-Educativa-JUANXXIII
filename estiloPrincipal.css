@@ -1,0 +1,203 @@
+.menuPrincipal{
+	background: #FDBE14;
+	position: fixed;
+	top: 75px;
+	height: 100px;
+	width: 100%;
+	z-index: 100;
+}
+.nav{
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	top: 60px;
+	display: inline-block;
+	background: #FDBE14;
+}
+.nav__li{
+	display: inline-block;
+	padding: 10px;
+
+}
+.nav__li a{
+	color: rgb(0,0,0);
+}
+.nav__li i{
+	width: 25px;
+	text-align: left;
+}
+.nav__li:hover > a{
+	color: white;
+}
+.nav__li:hover{
+	color: white;
+}
+.nav__responsive{
+	display: none;
+}
+.nav__responsive__ButtonContainers{
+	background: #FDBE14;
+	position: absolute;
+	margin-top: -30px;
+	width: 100%;
+	font-size: 20px;
+	z-index: 100;
+}
+.nav__responsive__Button{
+	padding: 6px 20px;
+}
+.nav__li__Containers{
+	position: relative;
+	top: -1000px;
+	height: calc(100vh - 60px);
+	transition: all .2s;
+	z-index: 1;
+	}
+
+.redesSociales{
+	position: relative;
+	left: 1000px;
+	width: 300px;
+	height: 75px;
+}
+.facebook{
+	width: 50px;
+	height: 50px;
+}
+.instagram{
+	width: 50px;
+	height: 50px;
+}
+.youtube{
+	width: 50px;
+	height: 50px;
+}
+.boton{
+	position: absolute;
+	top: 10px;
+	left: 160px;
+}
+@media only screen and (max-width: 1000px){
+	.redesSociales{
+	position: relative;
+	top: 30px;
+	left: 0px;
+	width: 300px;
+	height: 75px;
+}
+}
+	@media only screen and (max-width: 500px){
+	.menuPrincipal{
+	background: #FDBE14;
+	position: fixed;
+	top: 0;
+	height: 100px;
+	width: 100%;
+	z-index: 100;
+}
+	.nav{
+		display: none;
+	}
+	.nav__responsive{
+	position: fixed;
+	top: 100px;
+	display: block;
+}
+	.contenido{
+	position: relative;
+	top: 180px;
+	left: 120px;
+	width: 80%;
+	height: 95%;
+	}
+	.nav__ulResponsive:hover > .nav__li__Containers{
+		top:0;
+
+	}
+	.nav__li__Containers{
+
+	}
+	.nav__ulResponsive{
+
+		margin-top: 30px;
+	}
+}
+
+.logo{	
+	position: absolute;
+	top: 2.5px;
+	height: 95px;
+	width: 100px;
+}
+
+.texto{
+	top: 40px;
+	left: 100px;
+	position: absolute;
+}
+ h1{
+	font-weight: 10px;
+}
+.fondo{
+	position: absolute;
+	text-align: center;
+	opacity: .2;
+
+}
+
+.gridContainer{
+	position: relative;
+	top: 150px;
+	align-content:  end;
+	justify-content: center;
+	left: 15%;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	width: 80%;
+	height: 95%;
+}
+.mision{
+	display: inline;
+	background: #9CF5D1;
+	width: 90%;
+	height: 100%;
+	padding: 20px;
+}
+.mision: nth-child(1){
+	align-items: center;
+}
+.vision{
+	background: #9CF5D1;
+	display: inline;
+	width: 90%
+	height: 100%;
+	padding: 20px;
+}
+.noticias{
+	display: inline;
+	display: absolute;
+	background: blue;
+	top: 50px;
+}
+
+.contenedorGrid{
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+	grid-gap:5px;
+	top: 500px;
+	left: 100px;
+}
+.diapo{
+	object-fit: cover;
+	width: 100%;
+	height: 250px;
+}
+.diapo:first-child{
+
+}
+.tituloGrid{
+	position: absolute;
+	top: 600px;
+	left: 20px;
+}

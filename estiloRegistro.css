@@ -1,0 +1,19 @@
+*{
+	background: #fff;
+}
+h1{
+	text-align: center;
+}
+.contenedor{
+	position: relative;
+	width: 60%;
+	height: 70%;
+	top: 40%;
+	left: 20%;
+}
+div div div{
+	margin: 20px;
+	margin-left: 10px;
+	position: relative;
+	display: inline-block;
+}
