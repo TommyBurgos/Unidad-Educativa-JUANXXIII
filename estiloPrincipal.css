@@ -3,11 +3,6 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-*:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 .menuPrincipal{
 	background: #FDBE14;
 	position: absolute;
@@ -63,7 +58,6 @@
 	transition: all .2s;
 	z-index: 1;
 	}
-
 .redesSociales{
 	position: relative;
 	left: 1000px;
@@ -86,6 +80,16 @@
 	position: absolute;
 	top: 10px;
 	left: 160px;
+}
+li ul{
+	position: absolute;
+	list-style: none;
+	display: none;
+}
+nav ul li:hover > ul{
+	padding: 10px;
+	color: black;
+	display: block;
 }
 @media only screen and (min-width: 1250px && max-width: 1700px){
 .redesSociales{
@@ -224,19 +228,7 @@
 	top: 500px;
 	left: 100px;
 }
-.diapo{
-	object-fit: cover;
-	width: 100%;
-	height: 250px;
-}
-.diapo:first-child{
 
-}
-.tituloGrid{
-	position: absolute;
-	top: 600px;
-	left: 20px;
-}
 .slider{
 	position: relative;
 	top: 150px;
