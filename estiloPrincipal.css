@@ -87,9 +87,16 @@ li ul{
 	display: none;
 }
 nav ul li:hover > ul{
+	background: #FDBE14;
 	padding: 10px;
 	color: black;
 	display: block;
+}
+.opcionAlumnos__Li:hover > a{
+	color: white;
+}
+.opcionAlumnos__Li:hover{
+	color: white;
 }
 @media only screen and (min-width: 1250px && max-width: 1700px){
 .redesSociales{
