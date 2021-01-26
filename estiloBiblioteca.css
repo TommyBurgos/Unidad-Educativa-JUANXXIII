@@ -26,8 +26,8 @@ h1{
 }
 .instruccion{
 	position: absolute;
-	top:12%;
-	left: 4%;
+	top:17%;
+	left: 5%;
 }
 .flex-container{
 	display: flex;
@@ -73,9 +73,8 @@ h2{
 	position: relative;
 }
 h3{
-	display: inline-block;
+	display: inline;
 	position: relative;
-	left: -30px;
 	padding-top: 20px;
 }
 p{
@@ -88,6 +87,16 @@ form{
 	width: 100%;
 	text-align: center;
 	padding: 50px;
+}
+
+.volver{
+	position: absolute;
+	top: 100px;
+	left: 5px;
+}
+.boton{
+	width: 50px;
+	height: 30px;
 }
 input[type="button"]{
 	background: #317124;
@@ -118,7 +127,8 @@ input[type="button"]{
 }
 .instruccion{
 	position: absolute;
-	top:12%;
+	top:16%;
 	left: 8%;
 }
+
 }
