@@ -39,12 +39,39 @@ padding: 0;
 	left: 10px;
 	position: relative;
 	top: -29%;
+	color:  #000078;
+}
+.inicial{
+	position: relative;
+	top: -30%;
+	left: -25%;
+	color: #ff3f3c;
+	font-size: 30px;
+}
+.inicial2{
+	position: relative;
+	top: -30%;
+	left: -25%;
+	color: #0c0;
+	font-size: 30px;
+}
+ul{
+	position: relative;
+	left: 26px;
+}
+.primeroB{
+	position: relative;
+	top: -30%;
+	left: -25%;
+	color: #ffbd00;
+	font-size: 30px;
 }
 .ir{
 	position: relative;
 	bottom: 2%;
-	background: #317124;
-	color: #fff;
+	background: #fff;
+	border: 0px;
+	color: #0090ff;
 }
 .flex-container{
 	display: flex;
@@ -63,7 +90,7 @@ padding: 0;
 	margin: 30px 15px;
 	max-width: 280px;
 	max-height: 400px;
-	border: 2px solid #111;
+	box-shadow: 0px 0px 7px black;
 	padding: 0px;
 }
 .flex-item:hover{

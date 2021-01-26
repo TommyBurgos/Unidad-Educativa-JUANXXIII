@@ -1,7 +1,7 @@
 const contenedor= document.querySelector(".flex-container");
 //s
-const lista= ["Prekinder","kinder","Primero","Segundo","Tercero","Cuarto","Quinto","Sexto","Septimo","Octavo","Noveno","Decimo","1ro de Bachillerato","2do de Bachillerato","3ro de Bachillerato"];
-const listaDescripcion=["Aprenderemos a: <br> *Realizar los primeros trazos <br> *Nociones de colores <br> * Nuestros primero números, y más ","Aprenderemos a: <br> *Realizar los primeros trazos <br> *Nociones de colores <br> * Nuestros primero números, y más ","Aprenderemos a: <br> *Realizar los primeros trazos <br> *Nociones de colores <br> * Nuestros primero números, y más ","Aprenderemos a: <br> *Realizar los primeros trazos <br> *Nociones de colores <br> * Nuestros primero números, y más "];
+const lista= ["<h3 class='inicial'>Prekinder</h3>","<h3 class='inicial2'>Kinder</h3>","<h3 class='primeroB'>Primero</h3>","Segundo","Tercero","Cuarto","Quinto","Sexto","Septimo","Octavo","Noveno","Decimo","1ro de Bachillerato","2do de Bachillerato","3ro de Bachillerato"];
+const listaDescripcion=["Aprenderemos a: <br>  <ul style='list-style-image:url(oso.png)'> <li>Realizar los primeros trazo</li><li>Aprender las primeras nociones de colores</li></ul>" ,"Aprenderemos a: <br> *Realizar los primeros trazos <br> *Nociones de colores <br> * Nuestros primero números, y más ","Aprenderemos a: <br> *Realizar los primeros trazos <br> *Nociones de colores <br> * Nuestros primero números, y más ","Aprenderemos a: <br> *Realizar los primeros trazos <br> *Nociones de colores <br> * Nuestros primero números, y más "];
 const ListaEdad1=[];
 const ListaEdad2=[];
 const ListaImagenes=["portadaPrekinder.png","portadakinder.png","portadaPrimero.png","portadaSegundo.png","portadaTercero.png","portadaCuarto.png","portadaQuinto.png","portadaSexto.png","portadaSeptimo.png","8voBasica.png","9noBasica.png","10moBasica.png","1roBachillerato.png","2doBachillerato.png","3roBachillerato.png"];
