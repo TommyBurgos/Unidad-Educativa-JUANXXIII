@@ -89,14 +89,18 @@ li ul{
 }
 nav ul li:hover > ul{
 	background: #FDBE14;
-	padding: 10px;
+	padding: 20px;
 	color: black;
 	display: block;
 }
-.opcionAlumnos__Li:hover > a{
+.opcion__Li{
+	padding-bottom: 5px;
+
+}
+.opcion__Li:hover > a{
 	color: white;
 }
-.opcionAlumnos__Li:hover{
+.opcion__Li:hover{
 	color: white;
 }
 
