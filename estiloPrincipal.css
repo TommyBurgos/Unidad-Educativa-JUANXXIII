@@ -38,6 +38,7 @@
 	color: white;
 }
 .nav__responsive{
+
 	display: none;
 }
 .nav__responsive__ButtonContainers{
@@ -98,85 +99,7 @@ nav ul li:hover > ul{
 .opcionAlumnos__Li:hover{
 	color: white;
 }
-@media only screen and (min-width: 1250px && max-width: 1700px){
-.redesSociales{
-	position: relative;
-	left: 1300px;
-	width: 300px;
-	height: 75px;
-}
-}
 
-@media only screen and (max-width: 1250px){
-	.redesSociales{
-	position: relative;
-	top: 10px;
-	left: 0px;
-	width: 300px;
-	height: 75px;
-}
-}
-@media only screen and (max-width: 500px){
-	.menuPrincipal{
-	background: #FDBE14;
-	position: fixed;
-	top: 0;
-	height: 100px;
-	width: 100%;
-	z-index: 100;
-}
-.fondo{
-	position: absolute;
-	text-align: center;
-	opacity: .2;
-
-}
-.gridContainer{
-	position: relative;
-	top: 180px;
-	align-content:  end;
-	justify-content: center;
-	left: 15%;
-	display: grid;
-	grid-template-columns: repeat(2,1fr);
-	width: 80%;
-	height: 95%;
-}
-	.nav{
-		display: none;
-	}
-	.nav__responsive{
-	position: fixed;
-	top: 100px;
-	display: block;
-}
-	.contenido{
-	position: relative;
-	top: 180px;
-	left: 120px;
-	width: 80%;
-	height: 95%;
-	}
-	.nav__ulResponsive:hover > .nav__li__Containers{
-		top:0;
-
-	}
-	.nav__li__Containers{
-
-	}
-	.nav__ulResponsive{
-
-		margin-top: 30px;
-	}
-	.slider{
-	position: relative;
-	top: 200px;
-	height: 400px
-	width: 90%;
-	margin: auto;
-	overflow: hidden;
-}
-}
 
 .logo{	
 	position: absolute;
@@ -247,9 +170,7 @@ nav ul li:hover > ul{
 .slider{
 	position: relative;
 	top: 150px;
-
 	width: 95%;
-	
 	margin: auto;
 	overflow: hidden;
 }
@@ -298,3 +219,111 @@ video{
 	width: 100%;
 	height: 100%;
 }
+
+
+
+@media only screen and (min-width: 1250px && max-width: 1700px){
+.redesSociales{
+	position: relative;
+	left: 1300px;
+	width: 300px;
+	height: 75px;
+}
+}
+
+@media only screen and (max-width: 1250px){
+	.redesSociales{
+	position: relative;
+	top: 10px;
+	left: 0px;
+	width: 300px;
+	height: 75px;
+}
+}
+@media only screen and (max-width: 600px){
+	.menuPrincipal{
+	background: #FDBE14;
+	position: fixed;
+	top: 0;
+	height: 100px;
+	width: 100%;
+	z-index: 100;
+}
+.slider{
+	position: relative;
+	top: 180px;
+	height: 400px
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+nav ul li:hover > ul{
+	background: #FDBE14;
+	padding: 10px;
+	color: black;
+	display: block;
+}
+.fondo{
+	position: absolute;
+	text-align: center;
+	opacity: .2;
+
+}
+.gridContainer{
+	position: relative;
+	top: 180px;
+	align-content:  end;
+	justify-content: center;
+	left: 15%;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	width: 80%;
+	height: 95%;
+}
+	.nav{
+		display: none;
+	}
+	.nav__responsive{
+	position: fixed;
+	top: 100px;
+	display: block;
+
+}
+nav ul li:hover > ul{
+	background: #FDBE14;
+	position: absolute;
+	top: 0px;
+	left: 120px;
+	padding: 10px;
+	color: black;
+	display: block;
+}
+	.contenido{
+	position: relative;
+	top: 180px;
+	left: 120px;
+	width: 80%;
+	height: 95%;
+	}
+	.nav__ulResponsive:hover > .nav__li__Containers{
+		top:0;
+		background: #FDBE14;
+		height: 35%;
+
+	}
+	.nav__li__Containers{
+
+	}
+	.nav__ulResponsive{
+
+		margin-top: 30px;
+	}
+	
+nav ul li:hover > ul{
+	background: #FDBE14;
+	padding: 10px;
+	color: black;
+	display: block;
+}
+}
+
