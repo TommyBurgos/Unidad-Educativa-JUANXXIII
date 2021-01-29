@@ -4,7 +4,6 @@
 	width: 100%;
 	height: 100px;
 	z-index: 1;
-
 }
 body{
 	overflow-x: hidden;
@@ -28,6 +27,9 @@ h1{
 	position: absolute;
 	top:17%;
 	left: 5%;
+}
+.tituloPrincipal{
+	display: flex;
 }
 .flex-container{
 	display: flex;
@@ -131,4 +133,27 @@ input[type="button"]{
 	left: 8%;
 }
 
+}
+@media only screen and (max-width: 600px){
+	.logo{
+	position: absolute;
+	background: #FDBE14;
+	width: 80px;
+	height: 90px;
+	left: 0;
+	}
+.flex-container{
+	top: 160px;
+
+}
+.instruccion{
+	top:28%;
+	left: 5%;
+}
+.titulos__secundario{
+	line-height: 0;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
 }
