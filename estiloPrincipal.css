@@ -170,10 +170,9 @@ nav ul li:hover > ul{
 	}
 	.slider{
 	position: relative;
-	top: 180px;
-
-	width: 95%;
-	
+	top: 200px;
+	height: 400px
+	width: 90%;
 	margin: auto;
 	overflow: hidden;
 }
