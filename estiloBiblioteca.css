@@ -153,7 +153,10 @@ input[type="button"]{
 	left: 5%;
 }
 .titulos__principal{
-	text-align: left;
+	text-align: right;
+}
+.juan{
+	text-align: right;
 }
 .titulos__secundario{
 	line-height: 0;
