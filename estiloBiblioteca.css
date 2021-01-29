@@ -152,9 +152,12 @@ input[type="button"]{
 	top:28%;
 	left: 5%;
 }
+.titulos__principal{
+	text-align: left;
+}
 .titulos__secundario{
 	line-height: 0;
-	text-align: center;
+	text-align: left;
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
