@@ -292,8 +292,8 @@ nav ul li:hover > ul{
 nav ul li:hover > ul{
 	background: #FDBE14;
 	position: absolute;
-	top: 0px;
-	left: 120px;
+	top: 15px;
+	left: 100%;
 	padding: 10px;
 	color: black;
 	display: block;
@@ -317,13 +317,6 @@ nav ul li:hover > ul{
 	.nav__ulResponsive{
 
 		margin-top: 30px;
-	}
-	
-nav ul li:hover > ul{
-	background: #FDBE14;
-	padding: 10px;
-	color: black;
-	display: block;
-}
+	}	
 }
 
