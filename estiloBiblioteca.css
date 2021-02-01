@@ -66,6 +66,12 @@ h1{
 	width: 200px;
 }
 
+.logoCol{
+	position: absolute;
+	top: 2.5px;
+	height: 95px;
+	width: 100px;
+}
 h2{
 	line-height: 0;
 	text-align: center;
@@ -164,4 +170,5 @@ input[type="button"]{
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
+
 }
