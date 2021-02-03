@@ -26,53 +26,63 @@ h2{
 	position: relative;
 
 }
+
 h4{
 position: relative;
-top: -25%;
-display: inline;
+display: block;
 text-align: left;
-padding: 0;
+padding: 15;
+
 	}
-.nombre{
-	line-height: 0;
-	text-align: left;
-	left: 10px;
-	position: relative;
-	top: -29%;
-	color:  #000078;
-}
+
 .inicial{
 	position: relative;
-	top: -30%;
-	left: -25%;
+
 	color: #ff3f3c;
 	font-size: 30px;
+	text-align: left;
 }
 .inicial2{
 	position: relative;
-	top: -30%;
-	left: -25%;
 	color: #0c0;
 	font-size: 30px;
-}
-ul{
-	position: relative;
-	left: 26px;
+	text-align: left;
 }
 .primeroB{
 	position: relative;
-	top: -30%;
-	left: -25%;
 	color: #ffbd00;
 	font-size: 30px;
+	text-align: left;
 }
-.ir{
+.nombre{
 	position: relative;
-	bottom: 2%;
+	font-size: 30px;
+	text-align: left;
+	color:  #000078;
+}
+ul{
+	position: relative;
+	left: 28px;
+
+}
+li{
+	position: relative;
+	left: 5px;
+}
+
+a button.ir{
+	position: relative;
+	display:inline ;
 	background: #fff;
 	border: 0px;
 	color: #0090ff;
+	top: 10%;
 }
+.ir:hover{
+	border: 1px solid black;
+
+}
+
 .flex-container{
 	display: flex;
 	flex-wrap: wrap;
@@ -83,25 +93,32 @@ ul{
 	
 }
 .flex-item{
-	
-	justify-content: center;
+	justify-content: flex-start;
 	flex-grow: 1;
 	flex-basis: 300px;
-	margin: 30px 15px;
-	max-width: 280px;
-	max-height: 400px;
+	margin: 40px 15px;
+	max-width: 300px;
+	max-height: 430px;
 	box-shadow: 0px 0px 7px black;
-	padding: 0px;
+	padding: 10px;
+	flex-grow: 1;
 }
 .flex-item:hover{
-	border: 3.5px solid #fca27e;
-	box-shadow: 0px 0px 30px #fdbe14;
+	border: 2.5px solid #fca27e;
+	box-shadow: 0px 0px 20px #fdbe14;
 }
 .flex-item:focus{
 	border: 5px solid #fca27e;
 	box-shadow: 0px 0px 30px #fdbe14;
 }
-
+.flex-container .flex-item div{
+	display: block;
+	position: relative;
+	background color: blue;
+	height: 50px;
+	top: 5%;
+	
+}
 .contenido{
 	position: relative;
 	top: 120px;
@@ -124,12 +141,12 @@ ul{
 	width: 100px;
 }
 .canal_img{
-	display: block;
+	display: inline-block;
 	margin: auto;
-	width: 280px;
-	height: 270px;
+	width: 300px;
+	height: 150px;
 	position: relative;
-	top: -16%;
-	object-fit: contain;
+
+	object-fit: inherit;
 }
 
