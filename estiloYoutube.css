@@ -96,10 +96,11 @@ a button.ir{
 	justify-content: flex-start;
 	flex-grow: 1;
 	flex-basis: 300px;
+	overflow: hidden;
 	margin: 40px 15px;
 	max-width: 300px;
 	max-height: 430px;
-	box-shadow: 0px 0px 7px black;
+	box-shadow: 0px 0px 5px black;
 	padding: 10px;
 	flex-grow: 1;
 }
@@ -147,6 +148,6 @@ a button.ir{
 	height: 150px;
 	position: relative;
 
-	object-fit: inherit;
+	object-fit: scale-down;
 }
 

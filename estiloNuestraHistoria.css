@@ -1,0 +1,101 @@
+.titulos{
+	position: relative;
+	position: fixed;
+	background: #FDBE14;
+	width: 100%;
+	height: 100px;
+	z-index: 1;
+	opacity: 0.5;
+
+}
+.logo{
+	top: 0;
+	position: absolute;
+	background: #FDBE14;
+	width: 100px;
+	height: 95px;
+}
+h1{	
+	line-height: 0;
+	text-align: center;
+}
+h2{	
+	line-height: 0.5;
+	text-align: center;
+	}
+.presentacion{
+	position: absolute;
+	top: 110px;
+	width: 100%;
+	height: 450px;
+	background-image:url(presentacionHistoria.png);
+	background-size: 100% 100%;
+	background-clip: border-box;
+	background-repeat: no-repeat;
+	background-position: 50% ;
+	opacity: 0.5
+	
+}
+.introduccion{
+	position: relative;
+	width: 70%;
+	height: 10%;
+	text-align: center;
+	top: 40%;
+	left: 20%;
+
+}
+.intro{
+	position: relative;
+	top: 40px;
+	font-family: "Times New Roman";
+	width: 90%;
+	line-height: 1.5;
+	font-weight: 400;
+	font-size: 30px;
+	color: #fff;
+}
+.introh3{
+	position: relative;
+	width: 90%;
+	top: 100px;
+	line-height: 2;
+	color: #fff;
+}
+.tiposHistoria{
+	position: relative;
+	
+	flex-wrap: wrap;
+	width: 500px;
+	top: 600px;
+	left: 40%;
+	align-items: center;
+}
+.general{
+	padding: 10px 20px;
+	align-items: center;
+	margin-left: 25px;
+	background-color: #4ff;
+	border-radius: 10px 2px;
+	border: 0px;
+
+}
+.comunidad{
+	padding: 10px 20px;
+	align-items: center;
+	margin-left: 25px;
+	border-radius: 10px 2px;
+	border: 0px;
+	background-color: #ff5050;
+}
+.HistoriaGeneral{
+	background-color: #f4f;
+
+}
+.general:focus > .HistoriaGeneral{
+
+	display: block;
+	position: relative;
+	background-color: #06f;
+
+}
