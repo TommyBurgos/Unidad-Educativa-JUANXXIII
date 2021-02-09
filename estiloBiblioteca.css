@@ -32,23 +32,89 @@ h1{
 .tituloPrincipal{
 	display: flex;
 }
+.filtros{
+	display: flex;
+	position: relative;
+	width: 100%;
+	justify-content: center;
+	align-content: center;
+	top: 150px;
+}
+.filtros button{
+	padding: 5px;
+	margin-left: 50px;
+	color: #fff;
+	border: 1px;
+	border-radius: 10px 10px;
+}
+.basicaInferior{
+	background-color: #317124
+}
+.basicaElemental{
+	background-color: #0084ff
+}
+.basicaSuperior{
+	background-color: #3c3
+}
+.bachillerato{
+	background-color: #f90
+}
+.vaciar{
+	background-color: maroon
+}
 .flex-container{
 	display: flex;
 	flex-wrap: wrap;
 	position: relative;
 	justify-content: center;
 	text-align: center;
-	top: 120px;
+	top: 170px;
+	
+}
+.flex-containerBI{
+	display: none;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	top: 170px;
+	
+}
+.flex-containerBE{
+	display: none;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	top: 170px;
+	
+}
+.flex-containerBS{
+	display: none;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	top: 170px;
+	
+}
+.flex-containerBGU{
+	display: none;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	top: 170px;
 	
 }
 .flex-item{
-	height: 400px;
 	justify-content: center;
+	overflow: hidden;
 	flex-grow: 1;
-	flex-basis: 300px;
+	flex-basis: 320px;
 	margin: 40px 20px;
 	max-width: 300px;
-	max-height: 400px;
+	max-height: 420px;
 	border: 2px solid #111;
 	padding: 15px;
 }
@@ -60,6 +126,19 @@ h1{
 	border: 5px solid #fca27e;
 	box-shadow: 0px 0px 30px #fdbe14;
 }
+.flex-itemBI{
+	justify-content: center;
+	display: none;
+	overflow: hidden;
+	flex-grow: 1;
+	flex-basis: 320px;
+	margin: 40px 20px;
+	max-width: 300px;
+	max-height: 420px;
+	border: 2px solid #111;
+	padding: 15px;
+}
+
 .libros_img{
 	display: block;
 	margin: auto;
@@ -107,7 +186,12 @@ form{
 	width: 50px;
 	height: 30px;
 }
+form{
+	position: relative;
+	top: 150px;
+}
 input[type="button"]{
+	position: relative;
 	background: #317124;
 	color: #fff;
 	border: none;
@@ -171,4 +255,7 @@ input[type="button"]{
 	padding-bottom: 2px;
 }
 
+}
+.nombre{
+	line-height: 1;
 }
