@@ -9,7 +9,17 @@
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+    	touch: true,
+    	pauseOnAction: false,
+    	pauseOnOver: false,
+    });
+  });
+</script>
 	<title>Unidad Educativa Juan XXIII</title>
 </head>
 <body>
@@ -90,14 +100,38 @@
 				</nav>
 			</header>
 	
-	<div class="slider">
-		<ul>
-			<li> <img src="admisiones.jpg"></li>
-			<li> <img src="procesoDeAdmision.jpg"></li>
-			<li> <img src="presentacion1.jpg"></li>
-			<li> <img src="presentacion2.jpg"></li>
-			<li> <img src="presentacion3.jpg"></li>
-
+	<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<img src="admisiones.jpg">
+				<section class="flex-caption">
+					<p></p>
+				</section>
+			</li>
+			<li>
+				<img src="procesoDeAdmision.jpg">
+				<section class="flex-caption">
+					<p>Iniciamos un nuevo Proceso de admisión</p>
+				</section>
+			</li>
+			<li>
+				<img src="presentacion1.jpg">
+				<section class="flex-caption">
+					<p>Formando excelentes profesionales</p>
+				</section>
+			</li>
+			<li>
+				<img src="presentacion2.jpg">
+				<section class="flex-caption">
+					<p>Diseñando diversas estrategias para un mejor aprendizaje</p>
+				</section>
+			</li>
+			<li>
+				<img src="presentacion3.jpg">
+				<section class="flex-caption">
+					<p class="ultima">Diseñando diversas estrategias para un mejor aprendizaje</p>
+				</section>
+			</li>
 		</ul>
 	</div>
 	<div class="gridContainer">
