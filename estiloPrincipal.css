@@ -104,7 +104,6 @@ nav ul li:hover > ul{
 	color: white;
 }
 
-
 .logo{	
 	position: absolute;
 	top: 2.5px;
@@ -145,30 +144,13 @@ nav ul li:hover > ul{
 	height: 100%;
 	padding: 20px;
 }
-.mision: nth-child(1){
-	align-items: center;
-}
+
 .vision{
 	background: #9CF5D1;
 	display: inline;
 	width: 90%
 	height: 100%;
 	padding: 20px;
-}
-.noticias{
-	display: inline;
-	display: absolute;
-	background: blue;
-	top: 50px;
-}
-
-.contenedorGrid{
-	position: relative;
-	display: grid;
-	grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
-	grid-gap:5px;
-	top: 500px;
-	left: 100px;
 }
 
 @font-face {
@@ -245,7 +227,6 @@ nav ul li:hover > ul{
 }
 .flex-control-nav .flex-prev{
 	left: 0;
-
 }
 .flex-control-nav .flex-next{
 	right: 0;
@@ -261,7 +242,6 @@ nav ul li:hover > ul{
 .flex-direction-nav a.flex-next:before {
   content: '\f002';
 }
-
 .flex-caption p{
 	font-family: Lato;
 	position: absolute;
@@ -272,7 +252,7 @@ nav ul li:hover > ul{
 	color: #000;
 	font-weight: bold;
 }
-.ultima{
+.flex-caption .ultima{
 	font-family: Lato;
 	position: absolute;
 	top: 70%;
@@ -282,39 +262,21 @@ nav ul li:hover > ul{
 	color: #000;
 	font-weight: bold;
 }
-
 .flexslider:hover .flex-direction-nav .flex-prev{
 	opacity: 0.7;
 	left: 10px;
 }
-
 .flexslider:hover .flex-direction-nav .flex-prev:hover{
 	opacity: 1;
 }
-
 .flexslider:hover .flex-direction-nav .flex-next{
 	opacity: 0.7;
 	right: 10px;
 }
-
 .flexslider:hover .flex-direction-nav .flex-next:hover{
 	opacity: 1;
 }
 
-
-@keyframes cambio {
-	0% { margin-left: 0; }
-	20%{margin-left: 0;}
-
-	25% { margin-left: -100%; }
-	45%{margin-left: -100%;}
-
-	50%{margin-left: -200%;}
-	70%{margin-left: -200%;}
-
-	75%{margin-left: -300%;}
-	100%{margin-left: -300%;}
-}
 .presentacion{
 	position: relative;
 	top: 220px;
@@ -329,17 +291,16 @@ video{
 }
 
 
-
 @media only screen and (min-width: 1250px && max-width: 1700px){
 .redesSociales{
 	position: relative;
-	left: 1300px;
+	left: 1500px;
 	width: 300px;
 	height: 75px;
 }
 }
 
-@media only screen and (max-width: 1250px){
+@media only screen and ( max-width: 1250px){
 	.redesSociales{
 	position: relative;
 	top: 10px;
@@ -349,6 +310,20 @@ video{
 }
 }
 @media only screen and (max-width: 600px){
+	.redesSociales{
+	position: relative;
+	top: 10px;
+	left: 0px;
+	width: 300px;
+	height: 75px;
+}
+.flexslider{
+	width: 80%;
+	height: 20%;
+	position: relative;
+	top: 170px;
+	left: 10%;
+}
 	.menuPrincipal{
 	background: #FDBE14;
 	position: fixed;
@@ -365,12 +340,7 @@ video{
 	margin: auto;
 	overflow: hidden;
 }
-nav ul li:hover > ul{
-	background: #FDBE14;
-	padding: 10px;
-	color: black;
-	display: block;
-}
+
 .fondo{
 	position: absolute;
 	text-align: center;
@@ -400,6 +370,7 @@ nav ul li:hover > ul{
 nav ul li:hover > ul{
 	background: #FDBE14;
 	position: absolute;
+	width: 100%;
 	top: 15px;
 	left: 100%;
 	padding: 10px;
