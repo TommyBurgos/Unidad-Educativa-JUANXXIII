@@ -40,6 +40,12 @@ h1{
 	align-content: center;
 	top: 150px;
 }
+.contador{
+	display: flex;
+	position: absolute;
+	top: 170px;
+	left: 30px;
+}
 .filtros button{
 	padding: 5px;
 	margin-left: 50px;
