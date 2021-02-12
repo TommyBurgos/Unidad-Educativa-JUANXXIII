@@ -54,6 +54,7 @@
 	color: white;
 }
 .nav__responsive{
+	position: fixed;
 	z-index: 1000;
 	display: none;
 }
