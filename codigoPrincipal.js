@@ -8,7 +8,7 @@ const youtube = document.querySelector(".youtube");
 youtube.setAttribute("title","youtube");
 
 $(document).ready(function(){
-	var altura= $('.nav').offset().top;
+	let altura= $('.nav').offset().top;
 	$(window).scroll(function(){
 		if ($(window).scrollTop() > altura){
 			$('.nav').addClass('menu-fixed');
@@ -16,7 +16,7 @@ $(document).ready(function(){
 			$('nav').removeClass('menu-fixed');
 		}
 	})
-
+	
 	
 })
 

@@ -348,7 +348,7 @@ h4{
 	height: 75px;
 }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 500px){
 	.redesSociales{
 	position: relative;
 	top: 10px;
@@ -384,10 +384,11 @@ h4{
 	position: relative;
 	top: 187px;
 	left: 0;
-	width: 90%;
-	height: 300px;
+	width: 80%;
+	height: 400px;
 }
 video{
+
 	width: 100%;
 	height: 100%;
 }
@@ -413,6 +414,7 @@ video{
 		display: none;
 	}
 	.nav__responsive{
+	z-index: 10;
 	position: fixed;
 	top: 100px;
 	display: block;
@@ -452,7 +454,7 @@ nav ul li:hover > ul{
 
 	}
 	.nav__ulResponsive{
-
+		
 		margin-top: 30px;
 	}
 
