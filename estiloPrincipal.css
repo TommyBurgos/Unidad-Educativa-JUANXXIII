@@ -357,7 +357,9 @@ h4{
 	height: 75px;
 }
 .flexslider{
-	width: 100%;
+	overflow: hidden;
+	
+	width: 700px;
 	height: 20%;
 	position: relative;
 	top: 170px;
@@ -372,19 +374,12 @@ h4{
 	width: 100%;
 	z-index: 100;
 }
-.slider{
-	position: relative;
-	top: 180px;
-	height: 400px
-	width: 90%;
-	margin: auto;
-	overflow: hidden;
-}
+
 .presentacion{
 	position: relative;
 	top: 187px;
-	left: 0;
-	width: 80%;
+	left: 8px;
+	width: 100%;
 	height: 400px;
 }
 video{
@@ -424,7 +419,7 @@ video{
 .pie{
 	position: relative;
 	display: flex;
-	background-color:#000;
+	background-color:#FDBE14;
 	top: 200px;
 	width: 700px;
 	align-content: center;
