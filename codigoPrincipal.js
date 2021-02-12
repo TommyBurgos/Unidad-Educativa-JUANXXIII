@@ -7,3 +7,18 @@ instagram.setAttribute("title","Instagram");
 const youtube = document.querySelector(".youtube");
 youtube.setAttribute("title","youtube");
 
+$(document).ready(function(){
+	var altura= $('.nav').offset().top;
+	$(window).scroll(function(){
+		if ($(window).scrollTop() > altura){
+			$('.nav').addClass('menu-fixed');
+		} else{
+			$('nav').removeClass('menu-fixed');
+		}
+	})
+
+	
+})
+
+
+

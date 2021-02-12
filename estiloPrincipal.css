@@ -3,13 +3,17 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+*{
+	padding: 0;
+	margin: 0;
+}
 .menuPrincipal{
 	background: #FDBE14;
 	position: absolute;
 	top: 75px;
 	height: 100px;
 	width: 100%;
-	z-index: 100;
+	z-index: 1000;
 }
 .nav{
 	width: 50%;
@@ -18,6 +22,18 @@
 	top: 60px;
 	display: inline-block;
 	background: #FDBE14;
+}
+.menu-fixed{
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+}
+.menu-fixed ul li{
+	position: relative;
+	left: 20px;
 }
 .nav__li{
 	display: inline-block;
@@ -38,7 +54,7 @@
 	color: white;
 }
 .nav__responsive{
-
+	z-index: 1000;
 	display: none;
 }
 .nav__responsive__ButtonContainers{
@@ -126,32 +142,6 @@ nav ul li:hover > ul{
 
 }
 
-.gridContainer{
-	position: relative;
-	top: 180px;
-	align-content:  end;
-	justify-content: center;
-	left: 15%;
-	display: grid;
-	grid-template-columns: repeat(2,1fr);
-	width: 80%;
-	height: 95%;
-}
-.mision{
-	display: inline;
-	background: #9CF5D1;
-	width: 90%;
-	height: 100%;
-	padding: 20px;
-}
-
-.vision{
-	background: #9CF5D1;
-	display: inline;
-	width: 90%
-	height: 100%;
-	padding: 20px;
-}
 
 @font-face {
   font-family: 'flexslider-icon';
@@ -164,6 +154,7 @@ nav ul li:hover > ul{
 .flexslider{
 	width: 80%;
 	height: 20%;
+	z-index: 1;
 	position: relative;
 	top: 120px;
 	left: 10%;
@@ -276,13 +267,38 @@ nav ul li:hover > ul{
 .flexslider:hover .flex-direction-nav .flex-next:hover{
 	opacity: 1;
 }
+.gridContainer{
+	position: relative;
+	top: 180px;
+	align-content:  end;
+	justify-content: center;
+	left: 15%;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	width: 80%;
+	height: 70px;
+}
+.mision{
+	display: inline;
+	background: #9CF5D1;
+	width: 90%;
+	height: 100%;
+	padding: 20px;
+}
 
+.vision{
+	background: #9CF5D1;
+	display: inline;
+	width: 90%
+	height: 100%;
+	padding: 20px;
+}
 .presentacion{
 	position: relative;
-	top: 220px;
+	top: 187px;
 	left: 50px;
-	width: 25%;
-	height: 15%;
+	width: 500px;
+	height: 400px;
 }
 video{
 
@@ -290,13 +306,35 @@ video{
 	height: 100%;
 }
 
+.pie{
+	position: relative;
+	display: flex;
+	background-color:#fd9a14;
+	top: 200px;
+	width: 100%;
+	align-content: center;
+	text-align: center;
+	height: 150px;
+	align-items: center;
+}
+h4{
+	position: relative;
+	width: 25%;
+	display: block;
+	height: 75px;
+	top: 20%;
+	margin: 10px;
+	overflow: hidden;
+}
 
+/*MEDIA-RESPONSIVE*/
 @media only screen and (min-width: 1250px && max-width: 1700px){
 .redesSociales{
 	position: relative;
 	left: 1500px;
 	width: 300px;
 	height: 75px;
+	z-index: 5;
 }
 }
 
@@ -324,7 +362,7 @@ video{
 	top: 170px;
 	left: 10%;
 }
-	.menuPrincipal{
+.menuPrincipal{
 	background: #FDBE14;
 	position: fixed;
 	top: 0;
@@ -369,6 +407,7 @@ video{
 }
 nav ul li:hover > ul{
 	background: #FDBE14;
+	z-index: 5;
 	position: absolute;
 	width: 100%;
 	top: 15px;
