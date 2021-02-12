@@ -408,14 +408,14 @@ video{
 }
 .mision{
 	flex-grow: 1;
-	width: 50%;
+	width: 45%;
 	height: 100%;
 	
 }
 
 .vision{
 	flex-grow: 1;
-	width: 50%;
+	width: 55%;
 	height: 100%;
 
 }
