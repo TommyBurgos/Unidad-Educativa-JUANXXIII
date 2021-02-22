@@ -140,6 +140,11 @@ nav ul li:hover > ul{
 	position: absolute;
 	text-align: center;
 	opacity: .2;
+}
+.titMV{
+	font-size: 24px;
+	font-weight: 10px;
+	padding-bottom: 5px;
 
 }
 

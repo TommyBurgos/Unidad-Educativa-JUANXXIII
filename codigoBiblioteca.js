@@ -58,7 +58,8 @@ class libro{
 }
 const changeHidden=(descarga)=>{
 	document.querySelector(".descargarlib").href= `${descarga}`;
-}
+};
+
 let documentFragmentG = document.createDocumentFragment();
 let documentFragmentBI = document.createDocumentFragment();
 let documentFragmentBE= document.createDocumentFragment();
@@ -82,6 +83,7 @@ for (var i = 0; i <lista.length; i++) {
 	let libro= crearLibro(nombre,autor,genero,edad1,edad2,imagen,descarga);
 	if (edad1>=6 && edad1<=8) {
 		let divBI= document.createElement("DIVBI");
+		let vacio= document.createElement("DIVBI");
 		divBI.addEventListener("click",()=>(changeHidden(descarga)))
 		divBI.tabIndex = i;
 		divBI.classList.add(`item-${i}`,'flex-item');
@@ -137,8 +139,6 @@ for (var i = 0; i <lista.length; i++) {
 	documentFragmentG.appendChild(div);
 	ctGeneral++;
 	
-	
-	
 };
 basInf.appendChild(documentFragmentBI);
 contenedor.appendChild(documentFragmentG);
@@ -147,6 +147,7 @@ contenedorBS.appendChild(documentFragmentBS);
 contenedorBGU.appendChild(documentFragmentBACH);
 contador.innerHTML='<p><b>Total de libros: </b></p>' + ctGeneral;
 
+let botonDescarga= document.querySelector('descargarlib');
 
 
 const basicaInferior= document.querySelector(".flex-itemBI");
