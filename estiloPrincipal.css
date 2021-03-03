@@ -15,9 +15,7 @@
 	width: 100%;
 	z-index: 1000;
 }
-.seo{
-	display: none;
-}
+
 .nav{
 	width: 50%;
 	position: absolute;
@@ -99,8 +97,21 @@
 }
 .boton{
 	position: absolute;
-	top: 10px;
+	top: 15px;
+
 	left: 160px;
+}
+.iniciar{
+	background-color: #00b600;
+	color: #fff;
+	width: 100px;
+	height: 20px;
+	border: 0;
+	box-shadow: #000 0px 0px 5px;
+}
+.boton :hover{
+	background-color: green;
+	transition: .5s;
 }
 li ul{
 	position: absolute;
@@ -136,6 +147,9 @@ nav ul li:hover > ul{
 	left: 100px;
 	position: absolute;
 }
+.seo{
+	display: none;
+}
 .unidEdu{
 	line-height: 1;
 }
@@ -161,12 +175,12 @@ nav ul li:hover > ul{
   font-style: normal;
 }
 .flexslider{
-	width: 80%;
+	width: 100%;
 	height: 20%;
 	z-index: 1;
 	position: relative;
 	top: 120px;
-	left: 10%;
+	
 }
 .slides{
 	overflow: hidden;	
@@ -276,34 +290,37 @@ nav ul li:hover > ul{
 	opacity: 1;
 }
 .gridContainer{
+	background-image: url("juanXXIII.png");
 	position: relative;
-	top: 180px;
-	align-content:  end;
+	top: 160px;
+	align-content:  center;
 	justify-content: center;
 	left: 10%;
-	display: grid;
-	grid-template-columns: repeat(2,1fr);
+	display: flex;
 	width: 80%;
-	height: 70px;
+	height: 140px;
 }
 .mision{
 	display: inline;
-	background: #9CF5D1;
-	width: 90%;
+	background: #9cf;
+	flex-grow: 1;
+	width: 50%;
 	height: 100%;
 	padding: 20px;
 }
 
 .vision{
-	background: #9CF5D1;
+	background: #9cf;
 	display: inline;
-	width: 90%
+	flex-grow: 1;
+	width: 50%;
 	height: 100%;
 	padding: 20px;
 }
 .presentacion{
 	position: relative;
-	top: 187px;
+	padding: 40px;
+	top: 215px;
 	left: 50px;
 	width: 500px;
 	height: 400px;
@@ -313,12 +330,61 @@ video{
 	width: 100%;
 	height: 100%;
 }
+.servicios{
+	background-image: url("fondoServicios.jpg");
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	min-width: 300px;
+	max-height: 1000px;
+	top: 230px;
+	width: 100%;
+}
+.flexTitulo{
+	width: 100%;
+	height: 15%;
+	display: flex;
+	justify-content: center;
 
+}
+.flexTitulo h2{	
+	margin: 30px;
+	font-size: 40px;
+	position: relative;
+	color: #000;
+	flex-grow: 0;
+}
+.flexServicios{
+	min-width: 10%;
+	padding: 20px;
+	flex-grow: 1;
+	flex-basis: 250px;
+	margin: 10px;
+	max-height: 160px;
+	min-height: 120px;
+	padding: 15px;
+	height: 25%;
+	overflow: hidden;
+}
+
+
+.textoServ{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+#servVirtuales{
+	font-size: 50px;
+}
 .pie{
 	position: relative;
 	display: flex;
 	background-color:#fd9a14;
-	top: 200px;
+	top: 220px;
+	bottom: 0;
 	width: 100%;
 	align-content: center;
 	text-align: center;
@@ -394,14 +460,7 @@ video{
 	height: 100%;
 }
 
-.fondo{
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	text-align: center;
-	opacity: .2;
 
-}
 .gridContainer{
 	display: flex;
 	position: relative;
