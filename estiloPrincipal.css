@@ -132,12 +132,12 @@ nav ul li:hover > ul{
 }
 
 .texto{
-	top: 20px;
+	top: 30px;
 	left: 100px;
 	position: absolute;
 }
 .unidEdu{
-	line-height: .4;
+	line-height: 1;
 }
 .fondo{
 	position: absolute;
