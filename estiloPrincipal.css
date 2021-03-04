@@ -98,7 +98,6 @@
 .boton{
 	position: absolute;
 	top: 15px;
-
 	left: 160px;
 }
 .iniciar{
@@ -120,6 +119,15 @@ li ul{
 }
 nav ul li:hover > ul{
 	background: #FDBE14;
+	padding: 20px;
+	color: black;
+	display: block;
+}
+
+nav ul li:hover .menu-li{
+	align-content: left;
+	background: #FDBE14;
+	width: 200px;
 	padding: 20px;
 	color: black;
 	display: block;
@@ -183,7 +191,7 @@ nav ul li:hover > ul{
 	
 }
 .slides{
-	background-image: url("fondoPrincipal.jpg");
+	background-image: url("fondoPrincipal3.jpg");
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
@@ -350,7 +358,7 @@ video{
 	height: 100%;
 }
 .servicios{
-	background-image: url("fondoServicios.jpg");
+	background-image: url("fondoPrincipal.jpg");
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
@@ -366,7 +374,6 @@ video{
 	height: 15%;
 	display: flex;
 	justify-content: center;
-
 }
 .flexTitulo h2{	
 	margin: 30px;
@@ -376,10 +383,23 @@ video{
 	flex-grow: 0;
 }
 .flexServicios{
-	min-width: 10%;
+	border-color: #000 2px;
+}
+#servVirtuales{
+	background-color: #DADCDC ;
+	border-radius: 10px 10px;
+}
+#servVirtuales:hover {
+	border-radius: 10px 10px;
+	transition: .4s;
+	background-color: #9C9D9D;
+}
+	
+.flexServicios{
+	min-width: 12%;
 	padding: 20px;
 	flex-grow: 1;
-	flex-basis: 250px;
+	width: 25%;
 	margin: 10px;
 	max-height: 160px;
 	min-height: 120px;

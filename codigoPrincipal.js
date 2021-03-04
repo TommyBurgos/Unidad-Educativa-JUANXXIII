@@ -12,8 +12,11 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		if ($(window).scrollTop() > altura){
 			$('.nav').addClass('menu-fixed');
+			$('.opcion').addClass('menu-li');
 		} else{
-			$('nav').removeClass('menu-fixed');
+			$('.nav').removeClass('menu-fixed');
+			$('.opcion').removeClass('menu-li');
+
 		}
 	})
 	
