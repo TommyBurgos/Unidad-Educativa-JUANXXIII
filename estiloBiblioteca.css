@@ -229,23 +229,21 @@ input[type="button"]{
 	top:16%;
 	left: 8%;
 }
-
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 500px){
 	.logo{
 	position: absolute;
 	background: #FDBE14;
 	width: 70px;
 	height: 90px;
-	
 	left: 0;
 	}
 .flex-container{
-	top: 170px;
+	top: 270px;
 
 }
 .instruccion{
-	top:28%;
+	top:22%;
 	left: 5%;
 }
 .titulos__principal{
@@ -260,7 +258,33 @@ input[type="button"]{
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
-
+.filtros{
+	top: 240px;
+}
+.filtros button{
+	padding: 2px;
+	margin-left: 20px;
+	
+}
+.contador{
+	top: 290px;
+	left: 30px;
+}
+.flex-container{
+	top: 270px;
+}
+.flex-containerBI{
+	top: 270px;
+}
+.flex-containerBE{
+	top: 270px;
+}
+.flex-containerBS{
+	top: 270px;
+}
+.flex-containerBGU{
+	top: 270px;
+}
 }
 .nombre{
 	line-height: 1;
