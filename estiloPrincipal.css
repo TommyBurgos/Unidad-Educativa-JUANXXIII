@@ -479,9 +479,10 @@ h4{
 @media only screen and (max-width: 500px){
 	.redesSociales{
 	position: relative;
-	top: 10px;
-	left: 0px;
-	width: 300px;
+	top: 100px;
+	left: 350px;
+	max-width: 300px;
+	min-width: 250px;
 	height: 75px;
 }
 .flexslider{
