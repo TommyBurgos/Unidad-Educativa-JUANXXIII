@@ -5,38 +5,38 @@ const contenedorBS= document.querySelector(".flex-containerBS");
 const contenedorBGU= document.querySelector(".flex-containerBGU");
 const contador=document.querySelector(".contador");
 //,
-const lista= ["Amigo se escribe con H","Yo nunca digo adios","La vida es un sueño","De la tierra a la luna","Huasipungo","Torre de Papel 'R Y M' investigadores","Pasion por la verdad","El puente de la soledad","El Fantasma de Canterville",
+const lista= ["Amigo se escribe con H","Yo nunca digo adios","La vida es un sueño","De la tierra a la luna","Torre de Papel 'R Y M' investigadores","Pasion por la verdad","El puente de la soledad","El Fantasma de Canterville",
 "Quien se ha llevado mi Queso","La isla misteriosa","Los miserables","La lluvia sabe Por qué","La isla del Tio Robinson","Matilda","El faro del fin del mundo","La esfinge de los hielos","Un capitan de 15 años","Las Cronicas de Narnia: El león, la bruja y el ropero",
 "Las Cronicas de Narnia: El Principe Caspian","Cinco Semanas en Globo","La vuelta al mundo en 80 días","Caperucita Roja","Los musicos de Bremen","Las Aventuras de Pinocho","El soldadito de Plomo","El lobo y las 7 Cabritas","El cuento de la Tortuga","Pulgarcito",
 "La Sirenita","El chanchito volador","El gato con Botas","La bella durmiente","El bosque encantado","Blanca Nieves","Las cruces sobre el Agua","El Principito","El viejo y el Mar","La Iliada",
 "La isla del Tesoro","Ortodoxia","El Principe Feliz","El traje del Emperador","Simbad el marino","El mago de Oz","El Ruiseñor y la Rosa","Edipo Rey"];
-const listaAutores=["Maria Fernanda Heredia","Maria Fernanda Heredia","Pedro calderon de la barca","Julio Verne","Jorge Icaza","Ramon Diaz","Miguel Angel Carlceles","Maria Fernanda Heredia","Oscar Welde",
+const listaAutores=["Maria Fernanda Heredia","Maria Fernanda Heredia","Pedro calderon de la barca","Julio Verne","Ramon Diaz","Miguel Angel Carlceles","Maria Fernanda Heredia","Oscar Welde",
 "Spencer Johnson","Julio Verne","Victor Hugo","Maria Fernanda Heredia","Julio Verne","Roald Dahl","Julio Verne","Julio Verne","Julio Verne","C.S.Lewis",
 "C.S.Lewis","Julio Verne","Julio Verne","Charles Perrault","Jacob Grimm y Wilhelm Grimm","Carlo Collodi","Hans Christian Andersen", "Hermanos Grimm","libre","Charles Perrault",
 "Hans Christian Andersen","Ana Maria Yepez","Charles Perrault","Hermanos Grimm","Enid Blyton","Hermanos Grimm","Joaquin Gallegos Lara","Antoine de Saint-Exupéry","Ernest Hemingway","Homero",
 "Robert Louis Stevenson","Chesterton","Oscar Wilde","Hans Christian Andersen","Rosa Navarro Durán","Frank Baum","Oscar Wilde","Sofocales"];
-const listaGenero=[,"Cuento","Cuento","Literario","Literario","Literario","Cuento","Literario","Literario","Literario",
+const listaGenero=[,"Cuento","Cuento","Literario","Literario","Cuento","Literario","Literario","Literario",
 "Literario","Literario","Literario","Literario","Literario","Literario","Ficcion Aventura","Ficcion Aventura", "Ficcion Aventura","Ficcion Aventura",
 "Ficcion Aventura","Ficcion Aventura","Ficcion Aventura","Literatura Infantil","Literatura Infantil","Literatura Infantil", "Literatura Infantil","Literatura Infantil","Cuento","Literatura Infantil",
 "Literatura Infantil","Literatura Infantil","Literatura Infantil","Literatura Infantil","Literatura Infantil","Cuento de Hadas","Literario","Literatura Infantil","Literario","Epopeya",
 "Ficcion Aventura","Apologia Cristiana","Ficcion Aventura","Ficcion","Ficcion Aventura","Ficcion Aventura","Literatura Infantil","Literario"];
-const ListaEdad1=[10,10,12,10,11,10,15,12,12,14,
+const ListaEdad1=[10,10,12,10,10,15,12,12,14,
 				13,14,13,12,10,13,12,12,12,
 				12,10,10,6,6,6,6,6,6,6,
 				6,6,6,6,6,6,10,6,9,13,
 				13,15,6,6,7,9,10,12];
-const ListaEdad2=[12,12,14,12,13,12,17,14,14,
+const ListaEdad2=[12,12,14,12,12,17,14,14,
 				17,17,17,17,14,14,16,14,14,17,
 				17,13,13,8,8,9,8,8,8,8,
 				8,8,8,8,8,8,14,12,11,15,
 				15,17,8,8,10,11,12,14];
-const ListaImagenes=["amigo-se-escribe.png","yo_nunca_digo_adios.jpg","la-vida-es-un-sueno.jpg","De_la_tierra_a_la_luna.jpg","huasipungo.jpg","torreDePapel.jpg","pasionPorLaVerdad.jpg","elPuenteDeLaSoledad.jpg","Fantasma-de-Canterville.jpg",
+const ListaImagenes=["amigo-se-escribe.png","yo_nunca_digo_adios.jpg","la-vida-es-un-sueno.jpg","De_la_tierra_a_la_luna.jpg","torreDePapel.jpg","pasionPorLaVerdad.jpg","elPuenteDeLaSoledad.jpg","Fantasma-de-Canterville.jpg",
 "quien-se-ha-llevado-mi-queso.jpg","la_isla-misteriosa.jpg","los-miserables.jpg","la-lluvia-sabe-porque.jpg","la-isla-del-tio-Robinson.jpeg","matilda.png","el-faro-del-fin-del-mundo.jpg","la-esfinge-hielo.png","un-capitan-de-15.años.png","narnia-El-león-la-bruja-y-el-ropero.png",
 "Narnia-el-principe-caspian.png","cincoSemanasEnGlobo.jpg","laVueltaAlMundoEn80Dias.jpg","CaperucitaRoja.jpg","losMusicosDeBremen.jpg","lasAventurasDePinocho.png","ElSoldaditoDePlomo.png","ElLoboyLosSieteCabritos.png","ElCuentoDeLaTortuga.png","Pulgarcito.png",
 "laSirenita.jpg","Imagenes/Biblioteca/elCerditoVolador.jpg","Imagenes/Biblioteca/elGatoConBotas.jpg","Imagenes/Biblioteca/laBellaDurmiente.jpg","Imagenes/Biblioteca/elBosqueEncantado.jpg","Imagenes/Biblioteca/BlancaNieves.jpg","Imagenes/Biblioteca/lasCrucesSobresElAgua.jpg","Imagenes/Biblioteca/el-principito.jpg","Imagenes/Biblioteca/elViejoyElMar.jpg","Imagenes/Biblioteca/laIliada.jpg",
 "Imagenes/Biblioteca/la-isla-del-tesoro.jpg","Imagenes/Biblioteca/ortodoxia.jpg","Imagenes/Biblioteca/ElPrincipeFeliz.jpg","Imagenes/Biblioteca/elTrajeDelEmperador.jpg","Imagenes/Biblioteca/SimbadElMarino.jpg","Imagenes/Biblioteca/elMagoDeOz.jpg","Imagenes/Biblioteca/ElRuiseñorYlaRosa.jpg","Imagenes/Biblioteca/edipoRey.jpg"];
 const listaDescarga=["https://drive.google.com/file/d/1QO9DsgJHB3oapFvhOyUlokv5Cc05yHAj/view?usp=sharing","https://drive.google.com/file/d/1RDXGoKjkaNUnVOJyjLpVsaYCFZQ8Dhab/view?usp=sharing","https://drive.google.com/file/d/13y2na_Uwgwqy5mtx1VEQq5xl70M0G2j8/view?usp=sharing","https://drive.google.com/file/d/14bVXGxOYcbuX9DhXSQLi5yOpkaTIAYev/view?usp=sharing",
-"https://drive.google.com/file/d/1_pmvbcsNnYP6NBvmPMJUTPiF1CdmYLk_/view?usp=sharing","https://drive.google.com/file/d/1ame7N1uw1IRabpr8cYfLk9v9Hf79vRS9/view?usp=sharing","https://drive.google.com/file/d/1nsMnni0gBb0u3IiLMKgLc3M73ISiueu9/view?usp=sharing","https://drive.google.com/file/d/19tRoqkEdXYyEzldIQr_3lC8XnJoNbWNO/view?usp=sharing","https://drive.google.com/file/d/1wpmeuJdjQRIhDHzdK40M6bZbyhCairML/view?usp=sharing",
+"https://drive.google.com/file/d/1ame7N1uw1IRabpr8cYfLk9v9Hf79vRS9/view?usp=sharing","https://drive.google.com/file/d/1nsMnni0gBb0u3IiLMKgLc3M73ISiueu9/view?usp=sharing","https://drive.google.com/file/d/19tRoqkEdXYyEzldIQr_3lC8XnJoNbWNO/view?usp=sharing","https://drive.google.com/file/d/1wpmeuJdjQRIhDHzdK40M6bZbyhCairML/view?usp=sharing",
 "https://drive.google.com/file/d/1uyO2pHUSfK7i3j7unR-xP_JgXfgU8QWP/view?usp=sharing","https://drive.google.com/file/d/1R4MocFXDulBHB9BGGw-eQB1Xfo_Sq569/view?usp=sharing","https://drive.google.com/file/d/1ygl-VZnXwqEjOBsrHbx2ohyB_Ax_kRiG/view?usp=sharing","https://drive.google.com/file/d/1UiJ-LfKZsTrruVzspM51K9QfQCcUnBlz/view?usp=sharing","https://drive.google.com/file/d/1w-G6TTXsPiy5R-3RbYDcC9iRpiEwMNSW/view?usp=sharing",
 "https://drive.google.com/file/d/1N8Nct0fV6KePUIZTMw1pWHJ196QT4U_J/view?usp=sharing","https://drive.google.com/file/d/18X2gv8QfCXj-vjgU6Y0XRY4QOkuRHR5f/view?usp=sharing","https://drive.google.com/file/d/1T-im8rWnAhamHc6abVdO4-tdifv6LlE6/view?usp=sharing","https://drive.google.com/file/d/1jckJxCe12gBlfhn2JkGnXf2oBCtF-3Sa/view?usp=sharing","https://drive.google.com/file/d/1ZVC0INhxxbHpGLJXVXmQ4TE8K2TK2Uwd/view?usp=sharing",
 "https://drive.google.com/file/d/1Vcgv4xGxueIOTP-CiGbKM_l_qH0oHbn-/view?usp=sharing","https://drive.google.com/file/d/1O_QkrHedJeAsvxbZ_PYp2tzH8YwyfpPO/view?usp=sharing","https://drive.google.com/file/d/1cJEv6GHlC-cVk3pV83lKMUo0YYq7e6YK/view?usp=sharing","https://drive.google.com/file/d/1gg75GWdV53YgKh6S6piQ_mBSmI6tQfKH/view?usp=sharing","https://drive.google.com/file/d/1Fon96hakFP-HhVddAIqoq40zoiIii3AP/view?usp=sharing",
