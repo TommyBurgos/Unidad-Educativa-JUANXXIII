@@ -9,7 +9,7 @@ const lista= ["Amigo se escribe con H","Yo nunca digo adios","La vida es un sue�
 "Quien se ha llevado mi Queso","La isla misteriosa","Los miserables","La lluvia sabe Por qué","La isla del Tio Robinson","Matilda","El faro del fin del mundo","La esfinge de los hielos","Un capitan de 15 años","Las Cronicas de Narnia: El león, la bruja y el ropero",
 "Las Cronicas de Narnia: El Principe Caspian","Cinco Semanas en Globo","La vuelta al mundo en 80 días","Caperucita Roja","Los musicos de Bremen","Las Aventuras de Pinocho","El soldadito de Plomo","El lobo y las 7 Cabritas","El cuento de la Tortuga","Pulgarcito",
 "La Sirenita","El chanchito volador","El gato con Botas","La bella durmiente","El bosque encantado","Blanca Nieves","Las cruces sobre el Agua","El Principito","El viejo y el Mar","La Iliada",
-"La isla del Tesoro","Ortodoxia","El Principe Feliz","El traje del Emperador","Simbad el marino","El mago de Oz","El Ruiseñor y la Rosa","Edipo Rey"];
+"La isla del Tesoro","Ortodoxia","El Principe Feliz","El traje del Emperador","Simbad el marino","El mago de Oz","El Ruiseñor y la Rosa","Edipo Rey","El padre Pro"];
 const listaAutores=["Maria Fernanda Heredia","Maria Fernanda Heredia","Pedro calderon de la barca","Julio Verne","Ramon Diaz","Miguel Angel Carlceles","Maria Fernanda Heredia","Oscar Welde",
 "Spencer Johnson","Julio Verne","Victor Hugo","Maria Fernanda Heredia","Julio Verne","Roald Dahl","Julio Verne","Julio Verne","Julio Verne","C.S.Lewis",
 "C.S.Lewis","Julio Verne","Julio Verne","Charles Perrault","Jacob Grimm y Wilhelm Grimm","Carlo Collodi","Hans Christian Andersen", "Hermanos Grimm","libre","Charles Perrault",
