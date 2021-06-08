@@ -33,7 +33,7 @@
 }
 .menu-fixed ul li{
 	position: relative;
-	left: 20px;
+	left: 10px;
 }
 .nav__li{
 	display: inline-block;
@@ -116,13 +116,15 @@ li ul{
 	list-style: none;
 	display: none;
 }
+/*Aquí va el cambio de los UL para su color, tamaño y demás*/
+/*Cambio ul Normal*/
 nav ul li:hover > ul{
 	background: #FDBE14;
 	padding: 20px;
 	color: black;
 	display: block;
 }
-
+/*Cambio ul Scroll*/
 nav ul li:hover .menu-li{
 	align-content: left;
 	background: #FDBE14;
@@ -131,9 +133,16 @@ nav ul li:hover .menu-li{
 	color: black;
 	display: block;
 }
+/*Cambio de los sub UL */
+li ul li:hover >ul{
+	width: 130px;
+	top: -2px;
+	left: -130px;
+	background-color: #FDBE14;
+}
+/**/
 .opcion__Li{
 	padding-bottom: 5px;
-
 }
 .opcion__Li:hover > a{
 	color: white;
@@ -141,7 +150,16 @@ nav ul li:hover .menu-li{
 .opcion__Li:hover{
 	color: white;
 }
-
+.opcion__subLi{
+	position: relative;
+	padding-bottom: 6px;
+}
+.opcion__subLi:hover > a{
+	color: white;
+}
+.opcion__subLi:hover{
+	color: white;
+}
 .logo{	
 	position: absolute;
 	top: 2.5px;
