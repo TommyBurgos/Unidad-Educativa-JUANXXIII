@@ -5,7 +5,7 @@ const contenedorBS= document.querySelector(".flex-containerBS");
 const contenedorBGU= document.querySelector(".flex-containerBGU");
 const contador=document.querySelector(".contador");
 //,
-const lista= ["FactFiles-New York","The Canterville-Ghost","the_happy_prince_and_other_tales"];
+const lista= ["FactFiles-New York","The Canterville-Ghost","The happy Prince"];
 const listaAutores=["John Scoot","Oscar Wilde","Oscar Wilde"];
 const listaGenero=["Informativo","Litario","Litario"];
 const ListaEdad1=[9,12,12];
