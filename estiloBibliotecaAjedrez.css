@@ -1,0 +1,291 @@
+.titulos{
+	position: fixed;
+	background: #FDBE14;
+	width: 100%;
+	height: 100px;
+	z-index: 1;
+}
+body{
+	overflow-x: hidden;
+}
+h1{	
+	padding-bottom: 3px;
+	line-height: 0;
+	text-align: center;
+}
+.logo{
+	top: 0;
+	left: 330px;
+	position: absolute;
+	background: #FDBE14;
+	width: 100px;
+	height: 95px;
+}
+.titulos__secundario{
+	text-align: center;
+}
+.instruccion{
+	position: absolute;
+	top:17%;
+	left: 5%;
+}
+.tituloPrincipal{
+	display: flex;
+}
+.filtros{
+	display: flex;
+	position: relative;
+	width: 100%;
+	justify-content: center;
+	align-content: center;
+	top: 150px;
+}
+.contador{
+	display: flex;
+	position: absolute;
+	top: 170px;
+	left: 30px;
+}
+.filtros button{
+	padding: 5px;
+	margin-left: 50px;
+	color: #fff;
+	border: 1px;
+	border-radius: 10px 10px;
+}
+.basicaInferior{
+	background-color: #317124
+}
+.basicaElemental{
+	background-color: #0084ff
+}
+.basicaSuperior{
+	background-color: #3c3
+}
+.bachillerato{
+	background-color: #f90
+}
+.vaciar{
+	background-color: maroon
+}
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	top: 170px;
+	
+}
+.flex-containerBI{
+	display: none;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	top: 170px;
+	
+}
+.flex-containerBE{
+	display: none;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	top: 170px;
+	
+}
+.flex-containerBS{
+	display: none;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	top: 170px;
+	
+}
+.flex-containerBGU{
+	display: none;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	top: 170px;
+	
+}
+.flex-item{
+	justify-content: center;
+	overflow: hidden;
+	flex-grow: 1;
+	flex-basis: 320px;
+	margin: 40px 20px;
+	max-width: 300px;
+	max-height: 420px;
+	border: 2px solid #111;
+	padding: 15px;
+}
+.flex-item:hover{
+	border: 5px solid #fca27e;
+	box-shadow: 0px 0px 30px #fdbe14;
+}
+.flex-item:focus{
+	border: 5px solid #fca27e;
+	box-shadow: 0px 0px 30px #fdbe14;
+}
+.flex-itemBI{
+	justify-content: center;
+	display: none;
+	overflow: hidden;
+	flex-grow: 1;
+	flex-basis: 320px;
+	margin: 40px 20px;
+	max-width: 300px;
+	max-height: 420px;
+	border: 2px solid #111;
+	padding: 15px;
+}
+
+.libros_img{
+	display: block;
+	margin: auto;
+	width: 200px;
+}
+
+.logoCol{
+	position: absolute;
+	top: 2.5px;
+	height: 95px;
+	width: 100px;
+}
+h2{
+	line-height: 0;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 5px;
+}
+.titulos__secundario{
+	position: relative;
+}
+h3{
+	display: inline;
+	position: relative;
+	padding-top: 20px;
+}
+p{
+	display: inline-block;
+	color: #330
+}
+form{
+	position: relative;
+	top: 100px;
+	width: 100%;
+	text-align: center;
+	padding: 50px;
+}
+
+.volver{
+	position: absolute;
+	top: 100px;
+	left: 5px;
+}
+.boton{
+	width: 50px;
+	height: 30px;
+}
+form{
+	position: relative;
+	top: 150px;
+}
+input[type="button"]{
+	position: relative;
+	background: #317124;
+	color: #fff;
+	border: none;
+	padding: 12px 28px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+@media only screen and (max-width: 1200px){
+	.logo{
+	position: absolute;
+	background: #FDBE14;
+	width: 100px;
+	height: 95px;
+	left: 0;
+	}
+	h1{	
+	line-height: 0;
+	text-align: center;
+	font-size: 2px;
+}
+	h2{
+
+	line-height: 0;
+	text-align: center;
+	font-size: 20px;
+}
+.instruccion{
+	position: absolute;
+	top:16%;
+	left: 8%;
+}
+}
+@media only screen and (max-width: 500px){
+	.logo{
+	position: absolute;
+	background: #FDBE14;
+	width: 70px;
+	height: 90px;
+	left: 0;
+	}
+.flex-container{
+	top: 270px;
+
+}
+.instruccion{
+	top:22%;
+	left: 5%;
+}
+.titulos__principal{
+	text-align: right;
+}
+.juan{
+	text-align: right;
+}
+.titulos__secundario{
+	line-height: 0;
+	text-align: left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.filtros{
+	top: 240px;
+}
+.filtros button{
+	padding: 2px;
+	margin-left: 20px;
+	
+}
+.contador{
+	top: 290px;
+	left: 30px;
+}
+.flex-container{
+	top: 270px;
+}
+.flex-containerBI{
+	top: 270px;
+}
+.flex-containerBE{
+	top: 270px;
+}
+.flex-containerBS{
+	top: 270px;
+}
+.flex-containerBGU{
+	top: 270px;
+}
+}
+.nombre{
+	line-height: 1;
+}
