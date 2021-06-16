@@ -6,20 +6,21 @@ const contenedorBGU= document.querySelector(".flex-containerBGU");
 const contador=document.querySelector(".contador");
 //,
 const lista= ["Ajedrez logico","Ajedrez HiperModerno 1","Ajedrez HiperModerno 2","Los secretos de la estrategia moderna en Ajedrez","Fundamentos de Ajedrez","Los 100 finales que hay que saber","222 celadas en las aperturas","Las mil y una lecciones de ajedrez","Ajedrez de los grandes maestros jugada a jugada","La pasión del Ajedrez",
-"101miniaturasBrillantes.png","El ajedrez de torneo","Princesa Del Ajedrez"];
+"101miniaturasBrillantes.png","El ajedrez de torneo","Princesa Del Ajedrez","Fundamentos estrategicos de Ajedrez","24 lecciones de Ajedrez","Entender las Aperturas.jpg","Mi sistema Ninsowitch","Descubrir las aperturas"];
 const listaAutores=["Irving Chernev ", "R. Aguilera y R.J. Perez","R. Aguilera y Francisco Jose Perez","John Wattson","Enrique P. Falcon","Jesus de la villa","Karsten Muller","Mi angel Martin","John Nunn","Gary Casparov",
-"John Nunn","D.Bronstein","Judit Polgar"];
+"John Nunn","D.Bronstein","Judit Polgar","Y.B. Estrin","Garri Kasparov","Sam Collins","AAron Ninsowitch","john emms"];
 const listaGenero=["Informativa","Informativa","Informativa","Informativa","Informativa","Informativa","Informativa","Informativa","Informativa","Informativa",
-"Informativa","Informativa","Literario"];
+"Informativa","Informativa","Literario","Informativa","Informativa","Informativa","Informativa","Informativa"];
 const ListaEdad1=[12,12,12,12,12,12,12,12,12,12,
-				  12,12,12];
+				  12,12,12,12,12,12,12,12];
 const ListaEdad2=[17,17,17,17,17,17,17,17,17,17,
-				  17,17,17];
-const ListaImagenes=["Imagenes/Biblioteca/Ajedrez/AjedrezLogico.jpg","Imagenes/Biblioteca/Ajedrez/AjedrezModerno.JPG","Imagenes/Biblioteca/Ajedrez/AjedrezHipermoderno2.jpg","Imagenes/Biblioteca/Ajedrez/secretosAjedrez.jpg","Imagenes/Biblioteca/Ajedrez/fundamentosAjedrez.jpg","Imagenes/Biblioteca/Ajedrez/los100Finales.jpg","Imagenes/Biblioteca/Ajedrez/222.jpg","Imagenes/Biblioteca/Ajedrez/lasMilYunaAventura.jpg","Imagenes/Biblioteca/Ajedrez/ajedrez de los grandes maestros jugada a jugada.jpg",
-"Imagenes/Biblioteca/Ajedrez/laPasionDelAjedrez.jpg","Imagenes/Biblioteca/Ajedrez/101miniaturasBrillantes.png","Imagenes/Biblioteca/Ajedrez/elAjedrezdeTorneo.png","Imagenes/Biblioteca/Ajedrez/princesaDelAjedrez.jpg"];
+				  17,17,17,17,17,17,17,17];
+const ListaImagenes=["Imagenes/Biblioteca/Ajedrez/AjedrezLogico.jpg","Imagenes/Biblioteca/Ajedrez/AjedrezModerno.JPG","Imagenes/Biblioteca/Ajedrez/AjedrezHipermoderno2.jpg","Imagenes/Biblioteca/Ajedrez/secretosAjedrez.jpg","Imagenes/Biblioteca/Ajedrez/fundamentosAjedrez.jpg","Imagenes/Biblioteca/Ajedrez/los100Finales.jpg","Imagenes/Biblioteca/Ajedrez/222.jpg","Imagenes/Biblioteca/Ajedrez/lasMilYunaAventura.jpg","Imagenes/Biblioteca/Ajedrez/ajedrezdelosgrandesmaestros.jpg",
+"Imagenes/Biblioteca/Ajedrez/laPasionDelAjedrez.jpg","Imagenes/Biblioteca/Ajedrez/101miniaturasBrillantes.png","Imagenes/Biblioteca/Ajedrez/elAjedrezdeTorneo.png","Imagenes/Biblioteca/Ajedrez/princesaDelAjedrez.jpg","Imagenes/Biblioteca/Ajedrez/estrategias.png","Imagenes/Biblioteca/Ajedrez/24Lecciones.jpg","Imagenes/Biblioteca/Ajedrez/entenderAperturas.jpg","Imagenes/Biblioteca/Ajedrez/miSistema.jpg","Imagenes/Biblioteca/Ajedrez/descubrirLasAperturas.jpg"];
 const listaDescarga=["https://drive.google.com/file/d/1t3UU5zTuLLfV0M2CN1X2pAytOp2X_JlM/view?usp=sharing","https://drive.google.com/file/d/1-5QSmVKxi3m6IkITXcWcBDwERPPq118U/view?usp=sharing","https://drive.google.com/file/d/1BSMsAr8Gqi70beNQz-l0ZVInsP8tXXss/view?usp=sharing","https://drive.google.com/file/d/1jU1pNbw01JEWeLqoyAaR0l8S0Yw5b12U/view?usp=sharing","https://drive.google.com/file/d/1vNnv9PPR88r5tPZ5KsQUbmVNUwpbi-OU/view?usp=sharing",
 "https://drive.google.com/file/d/1DqunFiNzyreUijgqEGqtDr7xYLLhph3C/view?usp=sharing","https://drive.google.com/file/d/1DLhTV-pFG_wqoyvJPk9IWo5WDqAcjXNB/view?usp=sharing","https://drive.google.com/file/d/1ikCmIAF9MBuj3YeLbhyzuC_V809oi2XP/view?usp=sharing","https://drive.google.com/file/d/14s14728cbMv4GtEQWqKnO3kqR8H6RICF/view?usp=sharing","https://drive.google.com/file/d/1RhzacCxSAUJ2SmNthmp0IzdAfgoWonvB/view?usp=sharing",
-"https://drive.google.com/file/d/17sLbQJw1t8uI3uRFnLhqM8FdCjmkIwF0/view?usp=sharing","https://drive.google.com/file/d/1XxDxxaNBQvIf3bm2VSNTxnKwK78f8wwP/view?usp=sharing","https://drive.google.com/file/d/1CYHMeiU6t9M72noX-lfccmBt1dGwManl/view?usp=sharing"];
+"https://drive.google.com/file/d/17sLbQJw1t8uI3uRFnLhqM8FdCjmkIwF0/view?usp=sharing","https://drive.google.com/file/d/1XxDxxaNBQvIf3bm2VSNTxnKwK78f8wwP/view?usp=sharing","https://drive.google.com/file/d/1CYHMeiU6t9M72noX-lfccmBt1dGwManl/view?usp=sharing","https://drive.google.com/file/d/1x8Hk2mWawR72GLGgAyldGCEQKp2Ql102/view?usp=sharing","https://drive.google.com/file/d/15SuXEKfrEO7UOXPEanubY5mvGilu1rv5/view?usp=sharing",
+"https://drive.google.com/file/d/16U4TWE27SobZc2I-pE3uu-08BtGT3_65/view?usp=sharing","https://drive.google.com/file/d/1CtIZCw2lMB5idvqjaCmHKS4pHtiqMGLa/view?usp=sharing","https://drive.google.com/file/d/1enor8Jac_fqpNG5EHSkOggL4BDVQVPht/view?usp=sharing"];
 
 
 function crearLibro(nombre, autor,genero, edad1, edad2, imagen,desc){
