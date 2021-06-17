@@ -40,6 +40,7 @@
 	padding: 10px;
 
 }
+
 .nav__li a{
 	color: rgb(0,0,0);
 }
@@ -137,12 +138,13 @@ nav ul li:hover .menu-li{
 li ul li:hover >ul{
 	width: 130px;
 	top: -2px;
-	left: -130px;
+	left: -150px;
 	background-color: #FDBE14;
 }
 /**/
 .opcion__Li{
-	padding-bottom: 5px;
+	padding-bottom: 15px;
+
 }
 .opcion__Li:hover > a{
 	color: white;
@@ -152,7 +154,7 @@ li ul li:hover >ul{
 }
 .opcion__subLi{
 	position: relative;
-	padding-bottom: 6px;
+	padding-bottom: 15px;
 }
 .opcion__subLi:hover > a{
 	color: white;
@@ -464,11 +466,12 @@ video{
 	height: 150px;
 	align-items: center;
 }
-h4{
+h5{
 	position: relative;
 	width: 25%;
 	display: block;
 	height: 75px;
+	padding: 20px;
 	top: 20%;
 	margin: 10px;
 	overflow: hidden;
@@ -553,6 +556,7 @@ h4{
 	position: fixed;
 	top: 100px;
 	display: block;
+	width:  180px;
 
 }
 
@@ -564,8 +568,12 @@ h4{
 	width: 700px;
 	align-content: center;
 	text-align: center;
+	padding: 20px;
 	height: 150px;
 	align-items: center;
+}
+.pieContent{
+	padding: 10px;
 }
 nav ul li:hover > ul{
 	background: #FDBE14;
