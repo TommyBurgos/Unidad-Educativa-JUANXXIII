@@ -468,6 +468,7 @@ video{
 }
 h5{
 	position: relative;
+	box-sizing: content-box;
 	width: 25%;
 	display: block;
 	height: 75px;
@@ -505,6 +506,9 @@ h5{
 	max-width: 300px;
 	min-width: 250px;
 	height: 75px;
+}
+.opcion{	
+	top: 80px;
 }
 .flexslider{
 	overflow: hidden;
@@ -574,6 +578,7 @@ h5{
 }
 .pieContent{
 	padding: 10px;
+	box-sizing: all;
 }
 nav ul li:hover > ul{
 	background: #FDBE14;
