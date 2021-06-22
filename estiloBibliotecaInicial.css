@@ -212,7 +212,7 @@ form a input:hover{
 }
 .botonDes{
 	position: fixed;
-	top: 500px;
+	top: 520px;
 	l
 	
 }
@@ -273,6 +273,12 @@ form a input:hover{
 }
 .filtros{
 	top: 240px;
+}
+.botonDes{
+	position: fixed;
+	top: 480px;
+	l
+	
 }
 .filtros button{
 	padding: 2px;
