@@ -15,7 +15,7 @@ h1{
 }
 .logo{
 	top: 0;
-	left: 330px;
+	left: 30vw;
 	position: absolute;
 	background: #FDBE14;
 	width: 100px;
@@ -243,7 +243,7 @@ form a input:hover{
 	left: 8%;
 }
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
 	.logo{
 	position: absolute;
 	background: #FDBE14;
@@ -256,23 +256,24 @@ form a input:hover{
 
 }
 .instruccion{
-	top:22%;
+	top:25%;
 	left: 5%;
 }
 .titulos__principal{
 	text-align: right;
+	font-weight: 10;
 }
 .juan{
 	text-align: right;
 }
 .titulos__secundario{
 	line-height: 0;
-	text-align: left;
+	text-align: center;
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
 .filtros{
-	top: 240px;
+	top: 37vh;
 }
 .botonDes{
 	position: fixed;
@@ -303,6 +304,10 @@ form a input:hover{
 }
 .flex-containerBGU{
 	top: 270px;
+}
+form a input{
+	top: -30px;
+	
 }
 }
 .nombre{
