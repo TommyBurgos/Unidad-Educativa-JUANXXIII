@@ -125,11 +125,11 @@ h1{
 	padding: 15px;
 }
 .flex-item:hover{
-	border: 5px solid #fca27e;
+	outline: 5px solid #fca27e;
 	box-shadow: 0px 0px 30px #fdbe14;
 }
 .flex-item:focus{
-	border: 5px solid #fca27e;
+	outline: 7px solid #fca27e;
 	box-shadow: 0px 0px 30px #fdbe14;
 }
 .flex-itemBI{
