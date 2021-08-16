@@ -202,8 +202,8 @@ input[type="button"]{
 	background: #317124;
 	color: #fff;
 	border: none;
-	padding: 12px 28px;
-	font-size: 20px;
+	padding: 4px 7px;
+	font-size: 15px;
 	letter-spacing: 1px;
 }
 form a input:hover{
