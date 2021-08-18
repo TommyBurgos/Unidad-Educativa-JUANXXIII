@@ -14,7 +14,7 @@ const lista= ["Amigo se escribe con H","Yo nunca digo adios","La vida es un sue�
 const listaAutores=["Maria Fernanda Heredia","Maria Fernanda Heredia","Pedro calderon de la barca","Julio Verne","Ramon Diaz","Miguel Angel Carlceles","Maria Fernanda Heredia","Oscar Welde",
 "Spencer Johnson","Julio Verne","Victor Hugo","Maria Fernanda Heredia","Julio Verne","Roald Dahl","Julio Verne","Julio Verne","Julio Verne","C.S.Lewis",
 "C.S.Lewis","Julio Verne","Julio Verne","Charles Perrault","Jacob Grimm y Wilhelm Grimm","Carlo Collodi","Hans Christian Andersen", "Hermanos Grimm","libre","Charles Perrault",
-"Hans Christian Andersen","Ana Maria Yepez","Charles Perrault","Hermanos Grimm","Enid Blyton","Hermanos Grimm","Joaquin Gallegos Lara","Antoine de Saint-Exupéry","Ernest Hemingway","Homero",
+"Hans Christian Andersen","Ana Maria Yepez","Charles Perrault","Hermanos Grimm","Enid Blyton","Hermanos Grimm","Joaquin Gallegos Lara","Antoine de Saint-Exupéry","Ernest Hemingway","Homero <br>",
 "Robert Louis Stevenson","Chesterton","Oscar Wilde","Hans Christian Andersen","Rosa Navarro Durán","Frank Baum","Oscar Wilde","Sofocales","A. Dragón","Fulton J. Sheem",
 "Jorge Lorin, S.I","Tomás Moro"];
 const listaGenero=[,"Cuento","Cuento","Literario","Literario","Cuento","Literario","Literario","Literario",
@@ -61,9 +61,9 @@ function crearLibro(nombre, autor,genero, edad1, edad2, imagen,desc){
 	edad1= edad1;
 	edad2= edad2;
 	imagen= `<img class='libros_img' src="${imagen}" >`;
-	desc= `<a> href="${desc}" </a>`;
+	desc= desc;
 
-	return [imagen,nombre,autor,genero,edad1,edad2];
+	return [imagen,nombre,autor,genero,edad1,edad2,desc];
 }
 class libro{
 	constructor(nombre, autor,genero, edad1, edad2, imagen,desc){
@@ -107,7 +107,7 @@ for (var i = 0; i <lista.length; i++) {
 		divBI.addEventListener("click",()=>(changeHidden(descarga)))
 		divBI.tabIndex = i;
 		divBI.classList.add(`item-${i}`,'flex-item');
-		divBI.innerHTML= libro[0]+ libro[1]+libro[2];
+		divBI.innerHTML= libro[0]+ libro[1]+libro[2]+ "<a target='_blank' class='descargarlib' href='"+libro[6]+"'> <input  type='button'  value='DESCARGAR'> </a>";;
 		documentFragmentBI.appendChild(divBI);
 		ctBI ++
 
@@ -117,7 +117,7 @@ for (var i = 0; i <lista.length; i++) {
 		divBE.addEventListener("click",()=>(changeHidden(descarga)))
 		divBE.tabIndex = i;
 		divBE.classList.add(`item-${i}`,'flex-item');
-		divBE.innerHTML= libro[0]+ libro[1]+libro[2];
+		divBE.innerHTML= libro[0]+ libro[1]+libro[2]+ "<a target='_blank' class='descargarlib' href='"+libro[6]+"'> <input  type='button'  value='DESCARGAR'> </a>";;
 		documentFragmentBE.appendChild(divBE);
 		ctBM ++
 
@@ -127,7 +127,7 @@ for (var i = 0; i <lista.length; i++) {
 		divBS.addEventListener("click",()=>(changeHidden(descarga)))
 		divBS.tabIndex = i;
 		divBS.classList.add(`item-${i}`,'flex-item');
-		divBS.innerHTML= libro[0]+ libro[1]+libro[2];
+		divBS.innerHTML= libro[0]+ libro[1]+libro[2]+ "<a target='_blank' class='descargarlib' href='"+libro[6]+"'> <input  type='button'  value='DESCARGAR'> </a>";;
 		documentFragmentBS.appendChild(divBS);
 		ctBS ++
 
@@ -137,7 +137,7 @@ for (var i = 0; i <lista.length; i++) {
 		divBach.addEventListener("click",()=>(changeHidden(descarga)))
 		divBach.tabIndex = i;
 		divBach.classList.add(`item-${i}`,'flex-item');
-		divBach.innerHTML= libro[0]+ libro[1]+libro[2];
+		divBach.innerHTML= libro[0]+ libro[1]+libro[2]+ "<a target='_blank' class='descargarlib' href='"+libro[6]+"'> <input  type='button'  value='DESCARGAR'> </a>";;
 		documentFragmentBACH.appendChild(divBach);
 		ctBGU ++
 	}
@@ -146,7 +146,7 @@ for (var i = 0; i <lista.length; i++) {
 	div.addEventListener("click",()=>(changeHidden(descarga)))
 	div.tabIndex = i;
 	div.classList.add(`item-${i}`,'flex-item');
-	div.innerHTML= libro[0]+ libro[1]+libro[2];
+	div.innerHTML= libro[0]+ libro[1]+libro[2]+ "<a target='_blank' class='descargarlib' href='"+libro[6]+"'> <input  type='button'  value='DESCARGAR'> </a>";;
 	documentFragmentG.appendChild(div);
 	ctGeneral++;
 	

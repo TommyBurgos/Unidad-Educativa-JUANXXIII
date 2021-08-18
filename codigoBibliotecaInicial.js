@@ -92,7 +92,7 @@ for (var i = 0; i <lista.length; i++) {
 		divBI.addEventListener("click",()=>(changeHidden(descarga)))
 		divBI.tabIndex = i;
 		divBI.classList.add(`item-${i}`,'flex-item');
-		divBI.innerHTML= libro[0]+ libro[1]+libro[2]+ "<a target='_blank' class='descargarlib' href='"+libro[4]+"'> <input  type='button'  value='DESCARGAR'> </a>";;
+		divBI.innerHTML= libro[0]+ libro[1]+libro[2]+ "<a target='_blank' class='descargarlib' href='"+libro[4]+"'> <input  type='button'  value='DESCARGAR'> </a>";
 		documentFragmentBI.appendChild(divBI);
 		ctBI ++
 
