@@ -21,9 +21,9 @@ function crearLibro(nombre, autor,genero, edad1, edad2, imagen,desc){
 	edad1= edad1;
 	edad2= edad2;
 	imagen= `<img class='libros_img' src="${imagen}" >`;
-	desc= `<a> href="${desc}" </a>`;
+	desc= desc;
 
-	return [imagen,nombre,autor,genero,edad1,edad2];
+	return [imagen,nombre,autor,genero,edad1,edad2,desc];
 }
 class libro{
 	constructor(nombre, autor,genero, edad1, edad2, imagen,desc){
@@ -67,7 +67,7 @@ for (var i = 0; i <lista.length; i++) {
 		divBI.addEventListener("click",()=>(changeHidden(descarga)))
 		divBI.tabIndex = i;
 		divBI.classList.add(`item-${i}`,'flex-item');
-		divBI.innerHTML= libro[0]+ libro[1]+libro[2];
+		divBI.innerHTML= libro[0]+ libro[1]+libro[2]+ "<a target='_blank' class='descargarlib' href='"+libro[6]+"'> <input  type='button'  value='DESCARGAR'> </a>";;
 		documentFragmentBI.appendChild(divBI);
 		ctBI ++
 
@@ -77,7 +77,7 @@ for (var i = 0; i <lista.length; i++) {
 		divBE.addEventListener("click",()=>(changeHidden(descarga)))
 		divBE.tabIndex = i;
 		divBE.classList.add(`item-${i}`,'flex-item');
-		divBE.innerHTML= libro[0]+ libro[1]+libro[2];
+		divBE.innerHTML= libro[0]+ libro[1]+libro[2]+ "<a target='_blank' class='descargarlib' href='"+libro[6]+"'> <input  type='button'  value='DESCARGAR'> </a>";;
 		documentFragmentBE.appendChild(divBE);
 		ctBM ++
 
@@ -87,7 +87,7 @@ for (var i = 0; i <lista.length; i++) {
 		divBS.addEventListener("click",()=>(changeHidden(descarga)))
 		divBS.tabIndex = i;
 		divBS.classList.add(`item-${i}`,'flex-item');
-		divBS.innerHTML= libro[0]+ libro[1]+libro[2];
+		divBS.innerHTML= libro[0]+ libro[1]+libro[2]+ "<a target='_blank' class='descargarlib' href='"+libro[6]+"'> <input  type='button'  value='DESCARGAR'> </a>";;
 		documentFragmentBS.appendChild(divBS);
 		ctBS ++
 
@@ -97,7 +97,7 @@ for (var i = 0; i <lista.length; i++) {
 		divBach.addEventListener("click",()=>(changeHidden(descarga)))
 		divBach.tabIndex = i;
 		divBach.classList.add(`item-${i}`,'flex-item');
-		divBach.innerHTML= libro[0]+ libro[1]+libro[2];
+		divBach.innerHTML= libro[0]+ libro[1]+libro[2]+ "<a target='_blank' class='descargarlib' href='"+libro[6]+"'> <input  type='button'  value='DESCARGAR'> </a>";;
 		documentFragmentBACH.appendChild(divBach);
 		ctBGU ++
 	}
@@ -106,7 +106,7 @@ for (var i = 0; i <lista.length; i++) {
 	div.addEventListener("click",()=>(changeHidden(descarga)))
 	div.tabIndex = i;
 	div.classList.add(`item-${i}`,'flex-item');
-	div.innerHTML= libro[0]+ libro[1]+libro[2];
+	div.innerHTML= libro[0]+ libro[1]+libro[2]+ "<a target='_blank' class='descargarlib' href='"+libro[6]+"'> <input  type='button'  value='DESCARGAR'> </a>";;
 	documentFragmentG.appendChild(div);
 	ctGeneral++;
 	
@@ -176,4 +176,3 @@ botonSF.addEventListener("click",(e)=>{
 	contador.innerHTML='<p><b>Total de libros: </b></p>' + ctGeneral;
 
 })
-

@@ -206,10 +206,12 @@ input[type="button"]{
 	font-size: 15px;
 	letter-spacing: 1px;
 }
-form a input:hover{
-	transition: .5s;
+a input:hover{
+	transition: .3s;
 	background-color: green;
 	border-bottom: 3px solid black;
+	color: #333;
+	cursor: pointer ;
 }
 .botonDes{
 	position: fixed;

@@ -205,6 +205,14 @@ input[type="button"]{
 	font-size: 15px;
 	letter-spacing: 1px;
 }
+a input:hover{
+	transition: .3s;
+	background-color: green;
+	border-bottom: 3px solid black;
+	color: #bbb;
+	cursor: pointer ;
+}
+
 @media only screen and (max-width: 1200px){
 	.logo{
 	position: absolute;
