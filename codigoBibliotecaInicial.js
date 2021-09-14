@@ -12,7 +12,8 @@ const lista= ["Serenata a una Perrita","El vendedor de Alfombras","<br><br>Una A
 "El mapache herido","La liebre que tocaba el violin","Los cerdos debiles","El oso pescador","El buey y el caballo","La Codicia","El erizo generoso","El cerdito Gordo","La tortuga y el aguila","La oveja Negra",
 "El pavo real y la grulla","El caballo descontento","La liebre y el cordero", "El perro y el zorro","El cocodrilo mentiroso","Los lobos y los corderos","La Zorra y la rana lista","La ratita presumida",
 "El gusanillo","El lobo y el cabrito","El cangrejo colorado","La lechuza","La patita presumida","El ratoncito orgulloso","Los dos burros","La urraca Ladrona","La pluma de Ganso","La lechuza y las palomas",
-"Las dos Ramas","El elefante Blanco","El lobito Guardian","Las dos mariquitas","La nutria"];
+"Las dos Ramas","El elefante Blanco","El lobito Guardian","Las dos mariquitas","La nutria","El Rey mono y la zorra","El juego del escondite","La cabra y la mula","El pulpo goloso","La tortuga y el chimpance",
+"La reunión"];
 const listaMes=["Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero",
 				"Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero",
 				"Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero",
@@ -20,7 +21,8 @@ const listaMes=["Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero",
 				"Febrero","Febrero","Febrero","Febrero","Febrero","Febrero","Febrero","Febrero","Febrero","Febrero",
 				"Febrero","Febrero","Febrero","Febrero","Febrero","Febrero","Febrero","Febrero",
 				"Marzo","Marzo","Marzo","Marzo","Marzo","Marzo","Marzo","Marzo","Marzo","Marzo",
-				"Marzo","Marzo","Marzo","Marzo","Marzo"];
+				"Marzo","Marzo","Marzo","Marzo","Marzo","Marzo","Marzo","Marzo","Marzo","Marzo",
+				"Marzo"];
 const ListaDia=[1,2,3,4,5,6,7,8,9,10,
 				11,12,13,14,15,16,17,18,19,20,
 				21,22,23,24,25,26,27,28,29,30,31,
@@ -28,7 +30,8 @@ const ListaDia=[1,2,3,4,5,6,7,8,9,10,
 				11,12,13,14,15,16,17,18,19,20,
 				21,22,23,24,25,26,27,28,
 				1,2,3,4,5,6,7,8,9,10,
-				11,12,13,14,15];
+				11,12,13,14,15,16,17,18,19,20,
+				21];
 const ListaImagenes=["Imagenes/Biblioteca/Inicial/serenata.jpg","Imagenes/Biblioteca/Inicial/cerdoVendedor.jpg","Imagenes/Biblioteca/Inicial/unaAgujaEnUnPajar.jpg","Imagenes/Biblioteca/Inicial/matrimonioOson.jpg","Imagenes/Biblioteca/Inicial/elTigrito.jpg",
 "Imagenes/Biblioteca/Inicial/buenTiempoyLLuvia.jpg","Imagenes/Biblioteca/Inicial/patasElefante.jpg","Imagenes/Biblioteca/Inicial/elGato,gallina.jpg","Imagenes/Biblioteca/Inicial/gatitoGloton.jpg","Imagenes/Biblioteca/Inicial/leonyArdilla.jpg",
 "Imagenes/Biblioteca/Inicial/elEgoista.jpg","Imagenes/Biblioteca/Inicial/dosGatitos.jpg","Imagenes/Biblioteca/Inicial/dosCangrejos.jpg","Imagenes/Biblioteca/Inicial/laVacayElPerro.jpg","Imagenes/Biblioteca/Inicial/osoValienteyno.jpg",
@@ -42,7 +45,9 @@ const ListaImagenes=["Imagenes/Biblioteca/Inicial/serenata.jpg","Imagenes/Biblio
 "Imagenes/Biblioteca/Inicial/pavoYgrulla.jpg","Imagenes/Biblioteca/Inicial/caballoDescontento.jpg","Imagenes/Biblioteca/Inicial/liebreYcordero.jpg","Imagenes/Biblioteca/Inicial/perroYzorro.jpg","Imagenes/Biblioteca/Inicial/cocodriloMentiroso.jpg","Imagenes/Biblioteca/Inicial/lobosYcorderos.jpg","Imagenes/Biblioteca/Inicial/zorraYrana.jpg","Imagenes/Biblioteca/Inicial/ratitaPresumida.jpg",
 "Imagenes/Biblioteca/Inicial/gusanillo.jpg","Imagenes/Biblioteca/Inicial/loboYcabrito.jpg","Imagenes/Biblioteca/Inicial/cangrejoColorado.jpg","Imagenes/Biblioteca/Inicial/laLechuza.jpg","Imagenes/Biblioteca/Inicial/patitaPresumida.jpg",
 "Imagenes/Biblioteca/Inicial/ratoncitoOrgulloso.jpg","Imagenes/Biblioteca/Inicial/dosBurros.jpg","Imagenes/Biblioteca/Inicial/urracaLadrona.jpg","Imagenes/Biblioteca/Inicial/plumaGanzo.jpg","Imagenes/Biblioteca/Inicial/lechuzaYpalomas.jpg",
-"Imagenes/Biblioteca/Inicial/dosRanas.jpg","Imagenes/Biblioteca/Inicial/elefanteBlanco.jpg","Imagenes/Biblioteca/Inicial/lobitoGuardian.jpg","Imagenes/Biblioteca/Inicial/dosMariquitas.jpg","Imagenes/Biblioteca/Inicial/laNutria.jpg"];
+"Imagenes/Biblioteca/Inicial/dosRanas.jpg","Imagenes/Biblioteca/Inicial/elefanteBlanco.jpg","Imagenes/Biblioteca/Inicial/lobitoGuardian.jpg","Imagenes/Biblioteca/Inicial/dosMariquitas.jpg","Imagenes/Biblioteca/Inicial/laNutria.jpg",
+"Imagenes/Biblioteca/Inicial/monoYzorra.jpg","Imagenes/Biblioteca/Inicial/juegoEscondite.jpg","Imagenes/Biblioteca/Inicial/cabraYmula.jpg","Imagenes/Biblioteca/Inicial/pulpoGoloso.jpg","Imagenes/Biblioteca/Inicial/tortugaYchimpance.jpg",
+"Imagenes/Biblioteca/Inicial/laReunion.jpg"];
 const listaDescarga=["https://drive.google.com/file/d/1EBhz_1wdQfYrpSPx1dQQNE-SrWyyf61A/view?usp=sharing","https://drive.google.com/file/d/13sUyEBlRvOBT2ZoDFUvF-dIw-SoKhmu3/view?usp=sharing","https://drive.google.com/file/d/1EEiEiMD8801RJu97vdIJuloUckoY6xJ5/view?usp=sharing","https://drive.google.com/file/d/1JGDSEL9JP9xf2S4WP9OJKJa6C6uleyqy/view?usp=sharing","https://drive.google.com/file/d/1KRBM0MgbgQJxys0RVSLrNd0N2ffongCj/view?usp=sharing",
 "https://drive.google.com/file/d/1mycnx4h94vm30m0lXEW3sICi4zFDNk8i/view?usp=sharing","https://drive.google.com/file/d/1AsiRZ7frZrSrBCU092N8y2PkLjyXrrVJ/view?usp=sharing","https://drive.google.com/file/d/1vEWsLf0u4F0o-FV1Pvcqw3WcQtg5V6Q2/view?usp=sharing","https://drive.google.com/file/d/1EHE0TxPoAYxbwz_k3dRE-cyBLi9P3cfz/view?usp=sharing","https://drive.google.com/file/d/1V-4G5gDgStBf6vHYASFPosxb12kiE1gq/view?usp=sharing",
 "https://drive.google.com/file/d/1IIaTX7f_3Xc-bR4BeXVXgOdBmYLal0RK/view?usp=sharing","https://drive.google.com/file/d/1ZC_QDlzabMXqLUOWlN-tB_bLrZGd9cKV/view?usp=sharing","https://drive.google.com/file/d/1-sfSVOCTonzHbd6DpDw3z0TIBtjQ6i20/view?usp=sharing","https://drive.google.com/file/d/1Wltj84lXyjHkeLVRe9W_vS1IcicSmUp1/view?usp=sharing","https://drive.google.com/file/d/1TwI6TnYCOc1c8b4iLMj7h9Zsef_OwXVW/view?usp=sharing",
@@ -57,7 +62,10 @@ const listaDescarga=["https://drive.google.com/file/d/1EBhz_1wdQfYrpSPx1dQQNE-Sr
 "https://drive.google.com/file/d/1oZ3vrywn4HxALSXgCJ-XbmCjG5MUmrUn/view?usp=sharing","https://drive.google.com/file/d/1ScUd00m2jpnTFLfIiLRnU5hNcKYGOGQE/view?usp=sharing","https://drive.google.com/file/d/1qjBSvHmNrJlyYTiVCKxBfmXTPCBqmQyl/view?usp=sharing",
 "https://drive.google.com/file/d/1lu3j9ku4zVZSj1wrUo2NUgoQ7dNDI7yc/view?usp=sharing","https://drive.google.com/file/d/1NoYRziXgzQPUoGV2aR0sbogUY_EgWM25/view?usp=sharing","https://drive.google.com/file/d/1CXNmFscQcXB9Pj0lZ8yXUjjcHGihAT8f/view?usp=sharing","https://drive.google.com/file/d/1dNZJ22aNUZ0F6jmWoHwkK0LLKV4DKDf5/view?usp=sharing","https://drive.google.com/file/d/1s6pIs_Zn4wJGw5aY3zwXBqIfoVT3k74l/view?usp=sharing",
 "https://drive.google.com/file/d/1_KY9l5ZfOA2iau5opH_SG1mgS6jViwZK/view?usp=sharing","https://drive.google.com/file/d/1FuSK8uGvu8xjT0bvu-SLjSp6N6S4p7w-/view?usp=sharing","https://drive.google.com/file/d/1a0m_vm811tjx4cw8EdVI6HbPbQBM9ToQ/view?usp=sharing","https://drive.google.com/file/d/1PJ_4nCCsyhNEtCKeV4Qcrq_LYrfVHpJF/view?usp=sharing","https://drive.google.com/file/d/1JxhvJ5nV6AG3-U4tLI68bg4OVj69jLZl/view?usp=sharing",
-"https://drive.google.com/file/d/1Q8Jdg3ERtwnVCgPS-RBE__RQ1OH9ZiZi/view?usp=sharing","https://drive.google.com/file/d/1qRIi2n7x0wadFeo5GpCVJAAc1OzMnpQB/view?usp=sharing","https://drive.google.com/file/d/1R-NDUd638AOZvREbOrKhHobkfwJgy51P/view?usp=sharing","https://drive.google.com/file/d/1O06jhWAyYgok5jAAxk5IQIXWoLypw1Vm/view?usp=sharing","https://drive.google.com/file/d/1KoVCkFfPR7cW_BVv29DTX2nB-h3NAW4W/view?usp=sharing"];
+"https://drive.google.com/file/d/1Q8Jdg3ERtwnVCgPS-RBE__RQ1OH9ZiZi/view?usp=sharing","https://drive.google.com/file/d/1qRIi2n7x0wadFeo5GpCVJAAc1OzMnpQB/view?usp=sharing","https://drive.google.com/file/d/1R-NDUd638AOZvREbOrKhHobkfwJgy51P/view?usp=sharing","https://drive.google.com/file/d/1O06jhWAyYgok5jAAxk5IQIXWoLypw1Vm/view?usp=sharing","https://drive.google.com/file/d/1KoVCkFfPR7cW_BVv29DTX2nB-h3NAW4W/view?usp=sharing",
+"https://drive.google.com/file/d/1aEQdwShRzOcmw_7xoeSWIARjGlGKVzlQ/view?usp=sharing","https://drive.google.com/file/d/1JSqtazR7dGW5pZKorfPoVAVmZr_7zdBY/view?usp=sharing","https://drive.google.com/file/d/13zbqdi5DUyQVvdmR3oPyYtsn7uo68DG5/view?usp=sharing","https://drive.google.com/file/d/1D2-IhRgfRGGeYyTZY9LGwPsxf6ea6Tlh/view?usp=sharing","https://drive.google.com/file/d/1gFeYIgiUc5npKF-MalgA47-QApvlsjwK/view?usp=sharing",
+"https://drive.google.com/file/d/1aVNkL4bEARRq9Nw2WVkf3ZM3CQ3iIk6t/view?usp=sharing"];
+
 
 function crearLibro(nombre, mes, dia, imagen,desc){
 	nombre= `<h2 class="nombre">${nombre}</h2>`;
