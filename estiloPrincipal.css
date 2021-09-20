@@ -349,7 +349,7 @@ li ul li:hover >ul{
 .mision{
 	display: inline;
 	border-radius: 20px 0 0 20px;
-	background: #6774;	
+	background: #9cfc;
 	flex-grow: 1;
 	width: 50%;
 	max-height: 100%;
@@ -358,7 +358,7 @@ li ul li:hover >ul{
 }
 
 .vision{
-	background: #6775;
+	background: #9cfb;
 	border-radius: 0 20px 20px 0;
 	display: inline;
 	flex-grow: 1;
