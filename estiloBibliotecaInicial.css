@@ -235,22 +235,26 @@ form{
 			top: 6px;
 			left: 18px;
 
-	}25%{
+	}20%{
 		left: 6px;
 	}
-	50%{
-		left: -8px;
+	40%{
+		left: -18px;
 	}
-	75%{
-		left: -20px;
+	60%{
+		left: -33px;
+	}
+	80%{
+		left: 6px;
 	}
 	100%{
-		left: -500px;
+		left: 18px;
 	}
 }
 .volver:hover i{
 	animation-name: desplazarse;
-	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-duration: 1.5s;
 	animation-fill-mode: both;
 
 
