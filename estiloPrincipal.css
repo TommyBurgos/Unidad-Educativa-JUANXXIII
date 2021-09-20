@@ -127,6 +127,7 @@ nav ul li:hover > ul{
 	padding: 20px;
 	color: black;
 	display: block;
+	border-radius: 10px;
 }
 /*Cambio ul Scroll*/
 nav ul li:hover .menu-li{
@@ -143,6 +144,7 @@ li ul li:hover >ul{
 	top: -2px;
 	left: -150px;
 	background-color: #FDBE14;
+
 }
 /**/
 .opcion__Li{
@@ -224,7 +226,20 @@ li ul li:hover >ul{
 	width: 50%;
 	height: 250px;
 }
-
+#img2{
+	min-width: 40%;
+	max-width: 50%;
+}
+#diapo2{
+	position: absolute;
+	top: 340px;
+	color: #ddd;
+}
+#diapo3{
+	position: absolute;
+	top: 340px;
+	color: #ddd;
+}
 .slides,.flex-control-nav,.flex-direction-nav{
 	margin: 0;
 	padding: 0;
