@@ -89,6 +89,13 @@ h1{
 	cursor: pointer;
 }
 
+.mayo{
+	background-color: #f2ab;
+}
+.mayo:hover{
+	color: #000;
+	cursor: pointer;
+}
 .vaciar{
 	background-color: maroon
 }
@@ -135,6 +142,15 @@ h1{
 	
 }
 .flex-containerBGU{
+	display: none;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	top: 170px;
+	
+}
+.flex-containerMayo{
 	display: none;
 	flex-wrap: wrap;
 	position: relative;

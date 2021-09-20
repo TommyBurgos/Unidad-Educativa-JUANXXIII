@@ -3,6 +3,7 @@ const basInf= document.querySelector(".flex-containerBI");
 const contenedorBE= document.querySelector(".flex-containerBE");
 const contenedorBS= document.querySelector(".flex-containerBS");
 const contenedorBGU= document.querySelector(".flex-containerBGU");
+const contenedorMayo= document.querySelector(".flex-containerMayo");
 const contador=document.querySelector(".contador");
 //,
 const lista= ["Serenata a una Perrita","El vendedor de Alfombras","<br><br>Una Aguja en un pajar","El matrimonio Oson","El tigrito que se mordia las uñas","El buen tiempo y la lluvia","<br>Las patas de un elefante","El gato, el Zorro y el gallo","<br>El gatito glotón","El león y la ardillita",
@@ -16,7 +17,8 @@ const lista= ["Serenata a una Perrita","El vendedor de Alfombras","<br><br>Una A
 "La reunión","El tejon trasnochador","El mirlo Blanco","La luciernaga","La liebre y el gato","La foca y los libros","La abejita exigente","La familia Liron","El cumpleaños de Doña Hormiga","Conejita la castañera","La zoora y la Cigüeña", //Terminó Marzo
 "La conejita de las orejas grandes","Las liebres y las ramas","La perrita que no comia","La urraca","La obeja Golosa","El topo descontento","El ratoncillo que queria volar","La liebre de la pascua","El lobo Fanfaron","El caracol envidioso",
 "El oso Malo","El saltamontes mensajero","Los Burros listos","El canguro salvador","El puerco-espin guardian","Los tres buenos amigos","El patito feo","El hipopotamo que quería ser delgado","El perrito constructor de cometas","La pantera burlada",
-"El saltamontes y el perro","El oso Goloso","La trompa del elefante","El lobo y la luna","El ratoncillo Desobediente","El fin de un sueño","El elefante cobardica","La vanidad Burlada","Todos desean lo que no tienen","El cumpleaños de minino"];
+"El saltamontes y el perro","El oso Goloso","La trompa del elefante","El lobo y la luna","El ratoncillo Desobediente","El fin de un sueño","El elefante cobardica","La vanidad Burlada","Todos desean lo que no tienen","El cumpleaños de minino",//Termina Abril
+"El tío generoso","El maestro Uva","EL chimpance constructor","La sorpres de Don Liron","La trucha traviesa","El grillo Afonico","El conejito Comilon","El buho Miope","El pato deportista","La ovejita dormilona"];
 const listaMes=["Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero",
 				"Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero",
 				"Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero",
@@ -29,7 +31,9 @@ const listaMes=["Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero",
 				"Marzo",
 				"Abril","Abril","Abril","Abril","Abril","Abril","Abril","Abril","Abril","Abril",
 				"Abril","Abril","Abril","Abril","Abril","Abril","Abril","Abril","Abril","Abril",
-				"Abril","Abril","Abril","Abril","Abril","Abril","Abril","Abril","Abril","Abril"];
+				"Abril","Abril","Abril","Abril","Abril","Abril","Abril","Abril","Abril","Abril",
+				"Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo"];
+
 const ListaDia=[1,2,3,4,5,6,7,8,9,10,
 				11,12,13,14,15,16,17,18,19,20,
 				21,22,23,24,25,26,27,28,29,30,31,
@@ -41,7 +45,8 @@ const ListaDia=[1,2,3,4,5,6,7,8,9,10,
 				21,22,23,24,25,26,27,28,29,30,31,
 				1,2,3,4,5,6,7,8,9,10,
 				11,12,13,14,15,16,17,18,19,20,
-				21,22,23,24,25,26,27,28,29,30];
+				21,22,23,24,25,26,27,28,29,30,
+				1,2,3,4,5,6,7,8,9,10];
 const ListaImagenes=["Imagenes/Biblioteca/Inicial/serenata.jpg","Imagenes/Biblioteca/Inicial/cerdoVendedor.jpg","Imagenes/Biblioteca/Inicial/unaAgujaEnUnPajar.jpg","Imagenes/Biblioteca/Inicial/matrimonioOson.jpg","Imagenes/Biblioteca/Inicial/elTigrito.jpg",
 "Imagenes/Biblioteca/Inicial/buenTiempoyLLuvia.jpg","Imagenes/Biblioteca/Inicial/patasElefante.jpg","Imagenes/Biblioteca/Inicial/elGato,gallina.jpg","Imagenes/Biblioteca/Inicial/gatitoGloton.jpg","Imagenes/Biblioteca/Inicial/leonyArdilla.jpg",
 "Imagenes/Biblioteca/Inicial/elEgoista.jpg","Imagenes/Biblioteca/Inicial/dosGatitos.jpg","Imagenes/Biblioteca/Inicial/dosCangrejos.jpg","Imagenes/Biblioteca/Inicial/laVacayElPerro.jpg","Imagenes/Biblioteca/Inicial/osoValienteyno.jpg",
@@ -64,7 +69,9 @@ const ListaImagenes=["Imagenes/Biblioteca/Inicial/serenata.jpg","Imagenes/Biblio
 "Imagenes/Biblioteca/Inicial/ososMalo.jpg","Imagenes/Biblioteca/Inicial/saltamontesMensajero.jpg","Imagenes/Biblioteca/Inicial/BurrosListos.jpg","Imagenes/Biblioteca/Inicial/canguroSalvador.jpg","Imagenes/Biblioteca/Inicial/puercoEspinGuardian.jpg",
 "Imagenes/Biblioteca/Inicial/3BuenosAmigos.jpg","Imagenes/Biblioteca/Inicial/patitoFeo.jpg","Imagenes/Biblioteca/Inicial/hipopotamoDelgado.jpg","Imagenes/Biblioteca/Inicial/perritoCometas.jpg","Imagenes/Biblioteca/Inicial/panteraBurlada.jpg",
 "Imagenes/Biblioteca/Inicial/saltamontesYperro.jpg","Imagenes/Biblioteca/Inicial/osoGoloso.jpg","Imagenes/Biblioteca/Inicial/trompaDeElefante.jpg","Imagenes/Biblioteca/Inicial/loboYLuna.jpg","Imagenes/Biblioteca/Inicial/ratoncilloObediente.jpg",
-"Imagenes/Biblioteca/Inicial/finDsuenio.jpg","Imagenes/Biblioteca/Inicial/elefanteCobardica.jpg","Imagenes/Biblioteca/Inicial/vanidadBurlada.jpg","Imagenes/Biblioteca/Inicial/deseanNotienen.jpg","Imagenes/Biblioteca/Inicial/cumpleDelMinino.jpg"];
+"Imagenes/Biblioteca/Inicial/finDsuenio.jpg","Imagenes/Biblioteca/Inicial/elefanteCobardica.jpg","Imagenes/Biblioteca/Inicial/vanidadBurlada.jpg","Imagenes/Biblioteca/Inicial/deseanNotienen.jpg","Imagenes/Biblioteca/Inicial/cumpleDelMinino.jpg",
+"Imagenes/Biblioteca/Inicial/tioGeneroso.jpg","Imagenes/Biblioteca/Inicial/maestroUva.jpg","Imagenes/Biblioteca/Inicial/chimpanceConstructor.jpg","Imagenes/Biblioteca/Inicial/sorpresaLiron.jpg","Imagenes/Biblioteca/Inicial/truchaTraviesa.jpg",
+"Imagenes/Biblioteca/Inicial/grilloAfonico.jpg","Imagenes/Biblioteca/Inicial/conejitoComillon.jpg","Imagenes/Biblioteca/Inicial/buhoMiope.jpg","Imagenes/Biblioteca/Inicial/patoDeportista.jpg","Imagenes/Biblioteca/Inicial/ovejitaDormilona.jpg"];
 
 const listaDescarga=["https://drive.google.com/file/d/1EBhz_1wdQfYrpSPx1dQQNE-SrWyyf61A/view?usp=sharing","https://drive.google.com/file/d/13sUyEBlRvOBT2ZoDFUvF-dIw-SoKhmu3/view?usp=sharing","https://drive.google.com/file/d/1EEiEiMD8801RJu97vdIJuloUckoY6xJ5/view?usp=sharing","https://drive.google.com/file/d/1JGDSEL9JP9xf2S4WP9OJKJa6C6uleyqy/view?usp=sharing","https://drive.google.com/file/d/1KRBM0MgbgQJxys0RVSLrNd0N2ffongCj/view?usp=sharing",
 "https://drive.google.com/file/d/1mycnx4h94vm30m0lXEW3sICi4zFDNk8i/view?usp=sharing","https://drive.google.com/file/d/1AsiRZ7frZrSrBCU092N8y2PkLjyXrrVJ/view?usp=sharing","https://drive.google.com/file/d/1vEWsLf0u4F0o-FV1Pvcqw3WcQtg5V6Q2/view?usp=sharing","https://drive.google.com/file/d/1EHE0TxPoAYxbwz_k3dRE-cyBLi9P3cfz/view?usp=sharing","https://drive.google.com/file/d/1V-4G5gDgStBf6vHYASFPosxb12kiE1gq/view?usp=sharing",
@@ -90,7 +97,9 @@ const listaDescarga=["https://drive.google.com/file/d/1EBhz_1wdQfYrpSPx1dQQNE-Sr
 "https://drive.google.com/file/d/15N4CjqR1Phtvk61Druh6-fmZE6NOha1a/view?usp=sharing","https://drive.google.com/file/d/1DMbsqWKUpASWtmYETRPjkpo9c7MZ2ZOc/view?usp=sharing","https://drive.google.com/file/d/1FS3_sCiW2L1-tRGthcknH_PzNTkHYFFd/view?usp=sharing","https://drive.google.com/file/d/1vzG2qrjhf4YZcDQiW4lVoFow5VVY9rd4/view?usp=sharing","https://drive.google.com/file/d/1YzPHCeMcZsapcDee7eEydnCzIw85YcsS/view?usp=sharing",
 "https://drive.google.com/file/d/1izuhzzGmlQF6wDpfjvwVbXmS6CJEBAOm/view?usp=sharing","https://drive.google.com/file/d/1uDb02O0HJBWLJXjI9rjn9yYJ_9VdeXQR/view?usp=sharing","https://drive.google.com/file/d/1cZkOSaBJYe-kQrY4CTy3JmfjGdhIiR_Y/view?usp=sharing","https://drive.google.com/file/d/1TRA1Qytl1T3ttX4fDE51BghFbDFoJhj1/view?usp=sharing","https://drive.google.com/file/d/15ycQx_QRBwINWyqgkrG4GkwJeDInA96U/view?usp=sharing",
 "https://drive.google.com/file/d/1Zfs383az_s-a223DkYKsG-ZDOxC4tYPX/view?usp=sharing","https://drive.google.com/file/d/11gQd2fw9wcTFT0YG9_b9ZrKEjW46lqLK/view?usp=sharing","https://drive.google.com/file/d/1nl4QvevoWV1wVEPr5RCeKQLTawdhfFUb/view?usp=sharing","https://drive.google.com/file/d/1xm9eYDkmDD1ec1xBh-1GOXJ5m9y2ETS9/view?usp=sharing","https://drive.google.com/file/d/1bUhAR1_kwO83ekTujRMFLxNyl2L9paeW/view?usp=sharing",
-"https://drive.google.com/file/d/1gcNB8X2-F2IIoFuvz1UE1FnPXgpkHz59/view?usp=sharing","https://drive.google.com/file/d/1FOeRVIFBY2NoEpt9cIHQisFn0LYLB5Mv/view?usp=sharing","https://drive.google.com/file/d/1RCrRX8iDM4NnasAwMHCHVx51vTJ5RiLQ/view?usp=sharing","https://drive.google.com/file/d/1WtHJwK9Ua-u0N8-MaUtd1qmzugo0ACqu/view?usp=sharing","https://drive.google.com/file/d/100Y6S-DDVB99WMGTuFZRJuGO8JR2F9Jc/view?usp=sharing"];
+"https://drive.google.com/file/d/1gcNB8X2-F2IIoFuvz1UE1FnPXgpkHz59/view?usp=sharing","https://drive.google.com/file/d/1FOeRVIFBY2NoEpt9cIHQisFn0LYLB5Mv/view?usp=sharing","https://drive.google.com/file/d/1RCrRX8iDM4NnasAwMHCHVx51vTJ5RiLQ/view?usp=sharing","https://drive.google.com/file/d/1WtHJwK9Ua-u0N8-MaUtd1qmzugo0ACqu/view?usp=sharing","https://drive.google.com/file/d/100Y6S-DDVB99WMGTuFZRJuGO8JR2F9Jc/view?usp=sharing",//Termina Abril
+"https://drive.google.com/file/d/1b9rBq7Ol0gwXYHmdpjRZAaNF1VUJ31_o/view?usp=sharing","https://drive.google.com/file/d/1_eTuwSdEDdVjHTWTYqKOcbr_Mg8_EtUv/view?usp=sharing","https://drive.google.com/file/d/1Xxn7iW2gbP4eo1UiCngeICpRwM3khoRR/view?usp=sharing","https://drive.google.com/file/d/138g7GFOxZAeeYqVi2hjqr7gxvV4ei0dy/view?usp=sharing","https://drive.google.com/file/d/1JPyda3HRL6NVSI7tz5q4z4zF-accML5s/view?usp=sharing",
+"https://drive.google.com/file/d/1C98LTly6lUva8RZVWqe9vNBIQ4Nb5ZQH/view?usp=sharing","https://drive.google.com/file/d/1HiEqqO1uiDB3z0WPiPdjtWHojmtM_j70/view?usp=sharing","https://drive.google.com/file/d/1LiKsLzDR-7ettUVa2JZdBcPDj-GfrlAy/view?usp=sharing","https://drive.google.com/file/d/1r0PQfNiXS92vEX7igy8xxWZk0tQHv7Zb/view?usp=sharing","https://drive.google.com/file/d/19KU4fU4ctmIefdjk8AoDE7jYQppoO4KD/view?usp=sharing"];
 
 
 function crearLibro(nombre, mes, dia, imagen,desc){
@@ -119,11 +128,13 @@ let documentFragmentBI = document.createDocumentFragment();
 let documentFragmentBE= document.createDocumentFragment();
 let documentFragmentBS = document.createDocumentFragment();
 let documentFragmentBACH = document.createDocumentFragment();
+let documentFragmentMayo = document.createDocumentFragment();
 
 let ctBI=0;
 let ctBM=0;
 let ctBS=0;
 let ctBGU=0;
+let ctMay=0;
 let ctGeneral=0;
 
 for (var i = 0; i <lista.length; i++) {
@@ -173,6 +184,15 @@ for (var i = 0; i <lista.length; i++) {
 		documentFragmentBACH.appendChild(divBach);
 		ctBGU ++
 	}
+	if (listaMes[i]=="Mayo") {
+		let divMayo= document.createElement("DIVMayo");
+		divMayo.addEventListener("click",()=>(changeHidden(descarga)))
+		divMayo.tabIndex = i;
+		divMayo.classList.add(`item-${i}`,'flex-item');
+		divMayo.innerHTML= libro[0]+ libro[1]+libro[2]+ "<a target='_blank' class='descargarlib' href='"+libro[4]+"'> <input  type='button'  value='DESCARGAR'> </a>";;
+		documentFragmentMayo.appendChild(divMayo);
+		ctMay ++
+	}
 	let div= document.createElement("DIV");
 	div.addEventListener("click",()=>(changeHidden(descarga)))
 	div.tabIndex = i;
@@ -187,6 +207,7 @@ contenedor.appendChild(documentFragmentG);
 contenedorBE.appendChild(documentFragmentBE);
 contenedorBS.appendChild(documentFragmentBS);
 contenedorBGU.appendChild(documentFragmentBACH);
+contenedorMayo.appendChild(documentFragmentMayo);
 contador.innerHTML='<p><b>Total de libros: </b></p>' + ctGeneral;
 
 let botonDescarga= document.querySelector('descargarlib');
@@ -197,6 +218,7 @@ const botonBI= document.querySelector(".enero");
 const botonBE= document.querySelector(".febrero");
 const botonBS= document.querySelector(".marzo");
 const botonBGU= document.querySelector(".abril");
+const botonMay= document.querySelector(".mayo");
 const botonSF=document.querySelector(".vaciar");
 
 botonBI.addEventListener("click",(e)=>{
@@ -235,6 +257,16 @@ botonBGU.addEventListener("click",(e)=>{
 	contenedorBE.style='display:none';
 	contador.style='display:flex';
 	contador.innerHTML='<p><b> Cantidad de resultados obtenidos: </b> </p>' + ctBGU;
+})
+botonMay.addEventListener("click",(e)=>{
+	contenedor.style='display:none' ;
+	basInf.style='display:none';
+	contenedorBS.style='display:none';
+	contenedorBGU.style='display:none';
+	contenedorMayo.style='display:flex'
+	contenedorBE.style='display:none';
+	contador.style='display:flex';
+	contador.innerHTML='<p><b> Cantidad de resultados obtenidos: </b> </p>' + ctMay;
 })
 botonSF.addEventListener("click",(e)=>{
 	contenedor.style='display:flex' ;
