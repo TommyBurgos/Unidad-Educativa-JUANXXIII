@@ -5,13 +5,15 @@ const contenedorBS= document.querySelector(".flex-containerBS");
 const contenedorBGU= document.querySelector(".flex-containerBGU");
 const contador=document.querySelector(".contador");
 //,
-const lista= ["FactFiles-New York","The Canterville-Ghost","The happy Prince"];
-const listaAutores=["John Scoot","Oscar Wilde","Oscar Wilde"];
-const listaGenero=["Informativo","Litario","Litario"];
-const ListaEdad1=[9,12,12];
-const ListaEdad2=[11,15,14];
-const ListaImagenes=["Imagenes/Biblioteca/Ingles/newYork.jpg","Imagenes/Biblioteca/Ingles/theCantervilleGhost.jpg","Imagenes/Biblioteca/Ingles/the_happy_prince_and_other_tales.jpg"];
-const listaDescarga=["https://drive.google.com/file/d/1leRshgFQuGMRXEe0rm9OilRzhZtNabml/view?usp=sharing","https://drive.google.com/file/d/1jv13DM_FUEIgsEIsIDT5DretqMaKqtY1/view?usp=sharing","https://drive.google.com/file/d/1zLtGeTBG-DwQRWm0UNKr4iZWjs7iVbJQ/view?usp=sharing"];
+const lista= ["FactFiles-New York","The Canterville-Ghost","The happy Prince","The boy who cried wolf","The fox and the crow","The Magic Porridge pot","Sara says No"];
+const listaAutores=["John Scoot","Oscar Wilde","Oscar Wilde","Mairi Mackinnon","Mairi Mackinnon","The Brothers Grimm","Norman Whitney"];
+const listaGenero=["Informativo","Litario","Litario","Literario","Literario","Literario","Literario"];
+const ListaEdad1=[9,12,12,7,7,7,13];
+const ListaEdad2=[11,15,14,8,8,8,15];
+const ListaImagenes=["Imagenes/Biblioteca/Ingles/newYork.jpg","Imagenes/Biblioteca/Ingles/theCantervilleGhost.jpg","Imagenes/Biblioteca/Ingles/the_happy_prince_and_other_tales.jpg","Imagenes/Biblioteca/Ingles/boyAndWolf.jpg","Imagenes/Biblioteca/Ingles/foxAndCrow.jpg",
+					"Imagenes/Biblioteca/Ingles/magicePorride.jpg","Imagenes/Biblioteca/Ingles/saraSayNo.jpg"];
+const listaDescarga=["https://drive.google.com/file/d/1leRshgFQuGMRXEe0rm9OilRzhZtNabml/view?usp=sharing","https://drive.google.com/file/d/1jv13DM_FUEIgsEIsIDT5DretqMaKqtY1/view?usp=sharing","https://drive.google.com/file/d/1zLtGeTBG-DwQRWm0UNKr4iZWjs7iVbJQ/view?usp=sharing","https://drive.google.com/file/d/1GM1kjkyamchIWoVbQIPzH7AyRjKiva2N/view?usp=sharing","https://drive.google.com/file/d/1yXCuIrJploQHqaCqO-3qw-PIpLqzHJ3I/view?usp=sharing",
+					"https://drive.google.com/file/d/1m-Qv-vXkBSYY2s8_F_DYDp7CvaxG-eQ6/view?usp=sharing","https://drive.google.com/file/d/1nyvS24YZ2kTZUb70MTNJMDGDxc2GsBdK/view?usp=sharing"];
 
 
 function crearLibro(nombre, autor,genero, edad1, edad2, imagen,desc){
