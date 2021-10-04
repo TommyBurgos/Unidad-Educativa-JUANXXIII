@@ -121,16 +121,17 @@ h1{
 	margin: 40px 20px;
 	max-width: 310px;
 	max-height: 440px;
-	border: 2px solid #111;
+	border: 2px solid #1114;
+	border-radius: 20px;
 	padding: 15px;
 }
 .flex-item:hover{
-	border: 5px solid #fca27e;
-	box-shadow: 0px 0px 30px #fdbe14;
+	outline: 2px solid #aaad;
+	box-shadow: 0px 0px 20px #aaa;
 }
 .flex-item:focus{
-	border: 5px solid #fca27e;
-	box-shadow: 0px 0px 30px #fdbe14;
+	outline: 3px solid #888a;
+	box-shadow: 0px 0px 22px #aaa;
 }
 .flex-itemBI{
 	justify-content: center;
@@ -199,17 +200,18 @@ form{
 input[type="button"]{
 	position: relative;
 	background: #317124;
+	margin-top: 4px;
 	color: #fff;
-	border: none;
-	padding: 4px 7px;
+	border-radius: 20px;
+	padding: 6px 10px;
 	font-size: 15px;
 	letter-spacing: 1px;
 }
 a input:hover{
 	transition: .3s;
 	background-color: green;
-	border-bottom: 3px solid black;
-	color: #bbb;
+	border-bottom: 2px solid green;
+	color: #ddd;
 	cursor: pointer ;
 }
 
