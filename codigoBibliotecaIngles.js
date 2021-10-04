@@ -5,15 +5,22 @@ const contenedorBS= document.querySelector(".flex-containerBS");
 const contenedorBGU= document.querySelector(".flex-containerBGU");
 const contador=document.querySelector(".contador");
 //,
-const lista= ["FactFiles-New York","The Canterville-Ghost","The happy Prince","The boy who cried wolf","The fox and the crow","The Magic Porridge pot","Sara says No"];
-const listaAutores=["John Scoot","Oscar Wilde","Oscar Wilde","Mairi Mackinnon","Mairi Mackinnon","The Brothers Grimm","Norman Whitney"];
-const listaGenero=["Informativo","Litario","Litario","Literario","Literario","Literario","Literario"];
-const ListaEdad1=[9,12,12,7,7,7,13];
-const ListaEdad2=[11,15,14,8,8,8,15];
+const lista= ["FactFiles-New York","The Canterville-Ghost","The happy Prince","The boy who cried wolf","The fox and the crow","The Magic Porridge pot","Sara says No","Emma","Pride and Prejudice","The black cat",
+				"The diary of a young girl"];
+const listaAutores=["John Scoot","Oscar Wilde","Oscar Wilde","Mairi Mackinnon","Mairi Mackinnon","The Brothers Grimm","Norman Whitney","Jane Austen","Jane Austen","Edgar Allan Poe",
+				"Anne Frank"];
+const listaGenero=["Informativo","Litario","Litario","Literario","Literario","Literario","Literario","Literario","Literario","Literario",
+				"Literario"];
+const ListaEdad1=[9,12,12,7,7,7,13,15,15,15,
+				15];
+const ListaEdad2=[11,15,14,8,8,8,15,16,16,16,
+				16];
 const ListaImagenes=["Imagenes/Biblioteca/Ingles/newYork.jpg","Imagenes/Biblioteca/Ingles/theCantervilleGhost.jpg","Imagenes/Biblioteca/Ingles/the_happy_prince_and_other_tales.jpg","Imagenes/Biblioteca/Ingles/boyAndWolf.jpg","Imagenes/Biblioteca/Ingles/foxAndCrow.jpg",
-					"Imagenes/Biblioteca/Ingles/magicePorride.jpg","Imagenes/Biblioteca/Ingles/saraSayNo.jpg"];
+					"Imagenes/Biblioteca/Ingles/magicePorride.jpg","Imagenes/Biblioteca/Ingles/saraSayNo.jpg","Imagenes/Biblioteca/Ingles/emma-hardcover.jpeg","Imagenes/Biblioteca/Ingles/Pride-and-Prejudice.jpg","Imagenes/Biblioteca/Ingles/blackCat.jpg",
+					"Imagenes/Biblioteca/Ingles/diaryAna.jpg"];
 const listaDescarga=["https://drive.google.com/file/d/1leRshgFQuGMRXEe0rm9OilRzhZtNabml/view?usp=sharing","https://drive.google.com/file/d/1jv13DM_FUEIgsEIsIDT5DretqMaKqtY1/view?usp=sharing","https://drive.google.com/file/d/1zLtGeTBG-DwQRWm0UNKr4iZWjs7iVbJQ/view?usp=sharing","https://drive.google.com/file/d/1GM1kjkyamchIWoVbQIPzH7AyRjKiva2N/view?usp=sharing","https://drive.google.com/file/d/1yXCuIrJploQHqaCqO-3qw-PIpLqzHJ3I/view?usp=sharing",
-					"https://drive.google.com/file/d/1m-Qv-vXkBSYY2s8_F_DYDp7CvaxG-eQ6/view?usp=sharing","https://drive.google.com/file/d/1nyvS24YZ2kTZUb70MTNJMDGDxc2GsBdK/view?usp=sharing"];
+					"https://drive.google.com/file/d/1m-Qv-vXkBSYY2s8_F_DYDp7CvaxG-eQ6/view?usp=sharing","https://drive.google.com/file/d/1nyvS24YZ2kTZUb70MTNJMDGDxc2GsBdK/view?usp=sharing","https://drive.google.com/file/d/18rcFQW7B0_2jW0Sh314YQ6wbVzyp4JXG/view?usp=sharing","https://drive.google.com/file/d/1GgAD02_nWNlHrQz7X7MylJId6adJy-Fv/view?usp=sharing","https://drive.google.com/file/d/1-GQbQSSDlOQHLW0korTkGeINkqjd7SiD/view?usp=sharing",
+					"https://drive.google.com/file/d/17xrHGoaOt04btEkSk2eHzOJ1s3I08gys/view?usp=sharing"];
 
 
 function crearLibro(nombre, autor,genero, edad1, edad2, imagen,desc){
