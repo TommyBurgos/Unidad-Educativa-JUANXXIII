@@ -6,23 +6,30 @@ const contenedorBGU= document.querySelector(".flex-containerBGU");
 const contador=document.querySelector(".contador");
 //,
 const lista= ["FactFiles-New York","The Canterville-Ghost","The happy Prince","The boy who cried wolf","The fox and the crow","The Magic Porridge pot","Sara says No","Emma","Pride and Prejudice","The black cat",
-				"The diary of a young girl","Robin Hood","The Vicomte de Bragelonne","The two gentlemen of verona","The merchant of venice","What makes music so Wonderful","Oedipus the king"];
+				"The diary of a young girl","Robin Hood","The Vicomte de Bragelonne","The two gentlemen of verona","The merchant of venice","What makes music so Wonderful","Oedipus the king","The narrative of Arthur Gordon","The Iliad",
+				"The Odyssey","Crime and punishment","king Arthur and of his Noble Knights of the round table"];
 const listaAutores=["John Scoot","Oscar Wilde","Oscar Wilde","Mairi Mackinnon","Mairi Mackinnon","The Brothers Grimm","Norman Whitney","Jane Austen","Jane Austen","Edgar Allan Poe",
-				"Anne Frank","Walter Scoot","Alexandre Dumas","William Shakespeare","William Shakespeare","EM Ariza","Sophocales"];
+				"Anne Frank","Walter Scoot","Alexandre Dumas","William Shakespeare","William Shakespeare","EM Ariza","Sophocales","Edgar Allan Poe","Homer",
+				"Homer","Fedor Mikhilovitch Dostoievski","Thomas Malory"];
 const listaGenero=["Informativo","Litario","Litario","Literario","Literario","Literario","Literario","Literario","Literario","Literario",
-				"Literario","Literario","Literario","Literario","Literario","Literario"];
+				"Literario","Literario","Literario","Literario","Literario","Literario","Literario","Literario","Literario","Literario",
+				"Literario","Literario","Literario"];
 const ListaEdad1=[9,12,12,7,7,7,13,15,15,15,
-				15,15,15,15,15,15];
+				15,15,15,15,15,15,15,15,15,15,
+				15,15,15];
 const ListaEdad2=[11,15,14,8,8,8,15,16,16,16,
-				16,17,17,17,17,17];
+				16,17,17,17,17,17,17,17,17,17,
+				17,17,17];
 const ListaImagenes=["Imagenes/Biblioteca/Ingles/newYork.jpg","Imagenes/Biblioteca/Ingles/theCantervilleGhost.jpg","Imagenes/Biblioteca/Ingles/the_happy_prince_and_other_tales.jpg","Imagenes/Biblioteca/Ingles/boyAndWolf.jpg","Imagenes/Biblioteca/Ingles/foxAndCrow.jpg",
 					"Imagenes/Biblioteca/Ingles/magicePorride.jpg","Imagenes/Biblioteca/Ingles/saraSayNo.jpg","Imagenes/Biblioteca/Ingles/emma-hardcover.jpeg","Imagenes/Biblioteca/Ingles/Pride-and-Prejudice.jpg","Imagenes/Biblioteca/Ingles/blackCat.jpg",
 					"Imagenes/Biblioteca/Ingles/diaryAna.jpg","Imagenes/Biblioteca/Ingles/robin-hood.jpg","Imagenes/Biblioteca/Ingles/the-vicomte-de-bragelonne.jpg","Imagenes/Biblioteca/Ingles/two-gentlemen-of-verona.jpg","Imagenes/Biblioteca/Ingles/the-merchant-of-venice.jpg",
-					"Imagenes/Biblioteca/Ingles/musicBeatiful.jpg","Imagenes/Biblioteca/Ingles/OedipusKing.jpg"];
+					"Imagenes/Biblioteca/Ingles/musicBeatiful.jpg","Imagenes/Biblioteca/Ingles/OedipusKing.jpg","Imagenes/Biblioteca/Ingles/narrativeArthur.jpg","Imagenes/Biblioteca/Ingles/theIliad.jpg","Imagenes/Biblioteca/Ingles/the-odyssey.jpg",
+					"Imagenes/Biblioteca/Ingles/crime-and-punishment.jpg","Imagenes/Biblioteca/Ingles/kingarthurbook.jpg"];
 const listaDescarga=["https://drive.google.com/file/d/1leRshgFQuGMRXEe0rm9OilRzhZtNabml/view?usp=sharing","https://drive.google.com/file/d/1jv13DM_FUEIgsEIsIDT5DretqMaKqtY1/view?usp=sharing","https://drive.google.com/file/d/1zLtGeTBG-DwQRWm0UNKr4iZWjs7iVbJQ/view?usp=sharing","https://drive.google.com/file/d/1GM1kjkyamchIWoVbQIPzH7AyRjKiva2N/view?usp=sharing","https://drive.google.com/file/d/1yXCuIrJploQHqaCqO-3qw-PIpLqzHJ3I/view?usp=sharing",
 					"https://drive.google.com/file/d/1m-Qv-vXkBSYY2s8_F_DYDp7CvaxG-eQ6/view?usp=sharing","https://drive.google.com/file/d/1nyvS24YZ2kTZUb70MTNJMDGDxc2GsBdK/view?usp=sharing","https://drive.google.com/file/d/18rcFQW7B0_2jW0Sh314YQ6wbVzyp4JXG/view?usp=sharing","https://drive.google.com/file/d/1GgAD02_nWNlHrQz7X7MylJId6adJy-Fv/view?usp=sharing","https://drive.google.com/file/d/1-GQbQSSDlOQHLW0korTkGeINkqjd7SiD/view?usp=sharing",
 					"https://drive.google.com/file/d/17xrHGoaOt04btEkSk2eHzOJ1s3I08gys/view?usp=sharing","https://drive.google.com/file/d/1HE7yhF3NLrPMtXLE-VB_GFpchRS_QMX0/view?usp=sharing","https://drive.google.com/file/d/1Z87Gxf_vNImsKVLlfOduuiofVMnTU0EO/view?usp=sharing","https://drive.google.com/file/d/1ZZX0F652_UAt3Weo_n1ntU1TiJGGMK0L/view?usp=sharing","https://drive.google.com/file/d/1UXvxZzM4xyWy6FEYodAteUe2qJ3Iyved/view?usp=sharing",
-					"https://drive.google.com/file/d/1KJL63b7uulQKUz04bbgKG9BZufXd68jj/view?usp=sharing","https://drive.google.com/file/d/1z2E4qMiLuWyj578X3dqDVsZkJAi8-u3u/view?usp=sharing"];
+					"https://drive.google.com/file/d/1KJL63b7uulQKUz04bbgKG9BZufXd68jj/view?usp=sharing","https://drive.google.com/file/d/1z2E4qMiLuWyj578X3dqDVsZkJAi8-u3u/view?usp=sharing","https://drive.google.com/file/d/1DZATBIao05P2S94OdouowQaswOxMozou/view?usp=sharing","https://drive.google.com/file/d/1m-GDSHyPi2WESsi6nkHoGtrkhhDf1Pyu/view?usp=sharing","https://drive.google.com/file/d/1U0YGrBAbwXiP59Us_7Kl6DC2HpS1BLHm/view?usp=sharing",
+					"https://drive.google.com/file/d/1LPnvYBCtAksnnEDQJ8r_crVyrClqDyMh/view?usp=sharing","https://drive.google.com/file/d/1alUkrkWKdG34oTY-AgYNq_b6hH1YeYWI/view?usp=sharing"];
 
 
 function crearLibro(nombre, autor,genero, edad1, edad2, imagen,desc){

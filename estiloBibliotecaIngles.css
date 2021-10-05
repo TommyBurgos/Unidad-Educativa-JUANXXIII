@@ -150,6 +150,8 @@ h1{
 	display: block;
 	margin: auto;
 	width: 200px;
+	min-height: 280px;
+	max-height: 320px;
 }
 
 .logoCol{
@@ -200,7 +202,8 @@ form{
 input[type="button"]{
 	position: relative;
 	background: #317124;
-	margin-top: 4px;
+	margin: 12px;
+	margin-top: 5px;
 	color: #fff;
 	border-radius: 20px;
 	padding: 6px 10px;
