@@ -27,7 +27,7 @@ function crearLibro(nombre ,descripcion, edad1, edad2, imagen,direc){
 	edad1= edad1;
 	edad2= edad2;
 	imagen= `<img class='canal_img' src="${imagen}" >`;
-	direc= `<div > <a href="${direc}"> <button class="ir"> IR AL CANAL <i class="fas fa-arrow-right"></i> </button> </a> </div>`;
+	direc= `<div > <a target="_blank" href="${direc}"> <button class="ir"> IR AL CANAL <i class="fas fa-arrow-right"></i> </button> </a> </div>`;
 
 	return [imagen,nombre,descripcion,direc];
 }
