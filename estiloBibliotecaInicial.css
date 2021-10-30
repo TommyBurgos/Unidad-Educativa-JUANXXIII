@@ -96,6 +96,13 @@ h1{
 	color: #000;
 	cursor: pointer;
 }
+.junio{
+	background-color: #c42;
+}
+.junio:hover{
+	color: #000;
+	cursor: pointer;
+}
 .vaciar{
 	background-color: maroon
 }
@@ -151,6 +158,15 @@ h1{
 	
 }
 .flex-containerMayo{
+	display: none;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	top: 170px;
+	
+}
+.flex-containerJunio{
 	display: none;
 	flex-wrap: wrap;
 	position: relative;
@@ -326,6 +342,10 @@ a input:hover{
 	text-align: center;
 	font-size: 20px;
 }
+	.filtros{
+		top: 30vw;
+		height: 24px;
+	}
 .instruccion{
 	position: absolute;
 	top:16%;
