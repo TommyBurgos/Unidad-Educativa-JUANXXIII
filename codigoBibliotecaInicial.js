@@ -24,7 +24,8 @@ const lista= ["Serenata a una Perrita","El vendedor de Alfombras","<br><br>Una A
 "El tío generoso","El maestro Uva","EL chimpance constructor","La sorpres de Don Liron","La trucha traviesa","El grillo Afonico","El conejito Comilon","El buho Miope","El pato deportista","La ovejita dormilona",
 "La vivienda del gusanillo","Un loro poco puntual","Dos Amiguitas","Cuatro cerditos","Dos mariquitas","Dos moscas y un juego","El cervatillo y su prima","El pequeño Gorrion","La estrellita de mar","La cigarra Desobediente",
 "Las apariencias","La hormiga que no guarda secretos","El gatito y el canario","Terry y el gatito malo","El saltamontes triste","El pececito de colores","El pavo Real","La pulga y el perro","El canto del Ruiseñor","El pollito Mentiroso","El toro y las cabras",//Termino mayo,31
-"El flamenco avaricioso","El tigre dibujante","El burro tramposo","El pulpo aventurero","Profesor Delfín"];
+"El flamenco avaricioso","El tigre dibujante","El burro tramposo","El pulpo aventurero","Profesor Delfín","La hormigaa trabajadora","Las dos arañas","El rinoceronte y la Gaviota","La pantera Juguetona","El señor y la señora Avestruz",
+"La ratita Bailarina","El pelicano Ladron","El canguro que saltaba hacia atras"];
 const listaMes=["Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero",
 				"Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero",
 				"Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero",
@@ -41,7 +42,8 @@ const listaMes=["Enero","Enero","Enero","Enero","Enero","Enero","Enero","Enero",
 				"Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo",
 				"Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo",
 				"Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo","Mayo",
-				"Junio","Junio","Junio","Junio","Junio"];
+				"Junio","Junio","Junio","Junio","Junio","Junio","Junio","Junio","Junio","Junio",
+				"Junio","Junio","Junio"];
 
 const ListaDia=[1,2,3,4,5,6,7,8,9,10,
 				11,12,13,14,15,16,17,18,19,20,
@@ -58,7 +60,8 @@ const ListaDia=[1,2,3,4,5,6,7,8,9,10,
 				1,2,3,4,5,6,7,8,9,10,
 				11,12,13,14,15,16,17,18,19,20,
 				21,22,23,24,25,26,27,28,29,30,31,
-				1,2,3,4,5];
+				1,2,3,4,5,6,7,8,9,10,
+				11,12,13];
 const ListaImagenes=["Imagenes/Biblioteca/Inicial/serenata.jpg","Imagenes/Biblioteca/Inicial/cerdoVendedor.jpg","Imagenes/Biblioteca/Inicial/unaAgujaEnUnPajar.jpg","Imagenes/Biblioteca/Inicial/matrimonioOson.jpg","Imagenes/Biblioteca/Inicial/elTigrito.jpg",
 "Imagenes/Biblioteca/Inicial/buenTiempoyLLuvia.jpg","Imagenes/Biblioteca/Inicial/patasElefante.jpg","Imagenes/Biblioteca/Inicial/elGato,gallina.jpg","Imagenes/Biblioteca/Inicial/gatitoGloton.jpg","Imagenes/Biblioteca/Inicial/leonyArdilla.jpg",
 "Imagenes/Biblioteca/Inicial/elEgoista.jpg","Imagenes/Biblioteca/Inicial/dosGatitos.jpg","Imagenes/Biblioteca/Inicial/dosCangrejos.jpg","Imagenes/Biblioteca/Inicial/laVacayElPerro.jpg","Imagenes/Biblioteca/Inicial/osoValienteyno.jpg",
@@ -88,7 +91,9 @@ const ListaImagenes=["Imagenes/Biblioteca/Inicial/serenata.jpg","Imagenes/Biblio
 "Imagenes/Biblioteca/Inicial/2moscas1juegos.jpg","Imagenes/Biblioteca/Inicial/cervatilloYprima.jpg","Imagenes/Biblioteca/Inicial/pequeñoGorrion.jpg","Imagenes/Biblioteca/Inicial/estrellitaMar.jpg","Imagenes/Biblioteca/Inicial/cigarraDesobediente.jpg",
 "Imagenes/Biblioteca/Inicial/apariencias.jpg","Imagenes/Biblioteca/Inicial/hormigaNoSecretos.jpg","Imagenes/Biblioteca/Inicial/gatitoYcanaraio.jpg","Imagenes/Biblioteca/Inicial/terryYgatito.jpg","Imagenes/Biblioteca/Inicial/saltamontesTriste.jpg",
 "Imagenes/Biblioteca/Inicial/pececitoDeColores.jpg","Imagenes/Biblioteca/Inicial/pavoReal.jpg","Imagenes/Biblioteca/Inicial/pulgaYperro.jpg","Imagenes/Biblioteca/Inicial/cantoRuisenior.jpg","Imagenes/Biblioteca/Inicial/pollitoMentiroso.jpg","Imagenes/Biblioteca/Inicial/toroYcabras.jpg",//Termina mayo
-"Imagenes/Biblioteca/Inicial/flamencoAvaricioso.jpg","Imagenes/Biblioteca/Inicial/tigreDibujante.jpg","Imagenes/Biblioteca/Inicial/burroTramposo.jpg","Imagenes/Biblioteca/Inicial/pulpoAventurero.jpg","Imagenes/Biblioteca/Inicial/profesorDelfin.jpg"];
+"Imagenes/Biblioteca/Inicial/flamencoAvaricioso.jpg","Imagenes/Biblioteca/Inicial/tigreDibujante.jpg","Imagenes/Biblioteca/Inicial/burroTramposo.jpg","Imagenes/Biblioteca/Inicial/pulpoAventurero.jpg","Imagenes/Biblioteca/Inicial/profesorDelfin.jpg",
+"Imagenes/Biblioteca/Inicial/hormigaTrabajadora.jpg","Imagenes/Biblioteca/Inicial/dosArañas.jpg","Imagenes/Biblioteca/Inicial/rinoceronteYgaviota.jpg","Imagenes/Biblioteca/Inicial/panteraJuguetona.jpg","Imagenes/Biblioteca/Inicial/senioraAvestruz.jpg",
+"Imagenes/Biblioteca/Inicial/ratitaBailarina.jpg","Imagenes/Biblioteca/Inicial/pelicanoLadron.jpg","Imagenes/Biblioteca/Inicial/canguroSaltoAtras.jpg"];
 
 const listaDescarga=["https://drive.google.com/file/d/1EBhz_1wdQfYrpSPx1dQQNE-SrWyyf61A/view?usp=sharing","https://drive.google.com/file/d/13sUyEBlRvOBT2ZoDFUvF-dIw-SoKhmu3/view?usp=sharing","https://drive.google.com/file/d/1EEiEiMD8801RJu97vdIJuloUckoY6xJ5/view?usp=sharing","https://drive.google.com/file/d/1JGDSEL9JP9xf2S4WP9OJKJa6C6uleyqy/view?usp=sharing","https://drive.google.com/file/d/1KRBM0MgbgQJxys0RVSLrNd0N2ffongCj/view?usp=sharing",
 "https://drive.google.com/file/d/1mycnx4h94vm30m0lXEW3sICi4zFDNk8i/view?usp=sharing","https://drive.google.com/file/d/1AsiRZ7frZrSrBCU092N8y2PkLjyXrrVJ/view?usp=sharing","https://drive.google.com/file/d/1vEWsLf0u4F0o-FV1Pvcqw3WcQtg5V6Q2/view?usp=sharing","https://drive.google.com/file/d/1EHE0TxPoAYxbwz_k3dRE-cyBLi9P3cfz/view?usp=sharing","https://drive.google.com/file/d/1V-4G5gDgStBf6vHYASFPosxb12kiE1gq/view?usp=sharing",
@@ -121,7 +126,9 @@ const listaDescarga=["https://drive.google.com/file/d/1EBhz_1wdQfYrpSPx1dQQNE-Sr
 "https://drive.google.com/file/d/1dtDBxdbJYNcKCSI-EVrZ4FpV5tSa_Gnw/view?usp=sharing","https://drive.google.com/file/d/1fMXBDDr0VvwBnukmm0A4CqKEf1H1b5Mw/view?usp=sharing","https://drive.google.com/file/d/1tWPWJ_ApxUNUc_QeQVnYwKT2xYwuYh5k/view?usp=sharing","https://drive.google.com/file/d/1OdfffwgSX7Z8-fCZOBc0kBtBRogPulUa/view?usp=sharing","https://drive.google.com/file/d/19EQZlMfY5-u7nT2j4x1uxT1Gn_iB5FeW/view?usp=sharing",
 "https://drive.google.com/file/d/1BsiGmMbS3Wv9xppN4wNeDFqmCZfafyr7/view?usp=sharing","https://drive.google.com/file/d/1VMrqh7Kvm8rd_IgU_ezgwGf28nSSPhmP/view?usp=sharing","https://drive.google.com/file/d/1CnCLmuUCBgUi15o4O5TfDcT2SCTmTIwv/view?usp=sharing","https://drive.google.com/file/d/1ZcDvzjWXgpaniVj6gBR5guHNAsn-VCbX/view?usp=sharing","https://drive.google.com/file/d/1hekR5D1qvDGlWrear2FR3RvfUOP-qHvE/view?usp=sharing",
 "https://drive.google.com/file/d/1hZMGzD17fCRFZxrkv0_0xUOlXHtkZJpl/view?usp=sharing","https://drive.google.com/file/d/1WgIFozauBq_pmuqhAUR6xTgPADnZ3Y-r/view?usp=sharing","https://drive.google.com/file/d/1fdIDRJYQ9GO1gSNQsSNxs3Jhqw_IWGdp/view?usp=sharing","https://drive.google.com/file/d/1INduBb7salKRc5igNg8eQ7k3bKnpHd7j/view?usp=sharing","https://drive.google.com/file/d/1wZxt70y2WNuoWItqFRtr9oLAjK_q9ixF/view?usp=sharing","https://drive.google.com/file/d/1PTpBcNUIicfAssbNlICUi3gzLhX7lzN6/view?usp=sharing",
-"https://drive.google.com/file/d/12LkB74RGSYgTcha7NeVsjdYHiBBb7pTR/view?usp=sharing","https://drive.google.com/file/d/18BXTiMHG99ZWexhiGC9HNK0DzXtrRc0a/view?usp=sharing","https://drive.google.com/file/d/1w9u92vfsoNKKtRL_ktH4qQf4FCm_d4R9/view?usp=sharing","https://drive.google.com/file/d/1_H1AVChknhS9ftCTshpZkV-CKIgpe7xj/view?usp=sharing","https://drive.google.com/file/d/1d_p-FD56GullA50Nd2VPMqcn9MZWogft/view?usp=sharing"];
+"https://drive.google.com/file/d/12LkB74RGSYgTcha7NeVsjdYHiBBb7pTR/view?usp=sharing","https://drive.google.com/file/d/18BXTiMHG99ZWexhiGC9HNK0DzXtrRc0a/view?usp=sharing","https://drive.google.com/file/d/1w9u92vfsoNKKtRL_ktH4qQf4FCm_d4R9/view?usp=sharing","https://drive.google.com/file/d/1_H1AVChknhS9ftCTshpZkV-CKIgpe7xj/view?usp=sharing","https://drive.google.com/file/d/1d_p-FD56GullA50Nd2VPMqcn9MZWogft/view?usp=sharing",
+"https://drive.google.com/file/d/1l0jdmGNXKH2xGFl_J4d0Kmaj2PuTvuHe/view?usp=sharing","https://drive.google.com/file/d/181t6yy_QuJHNYjPfyIUhIUulhN_HQrxK/view?usp=sharing","https://drive.google.com/file/d/11POLNeJUvkVVILJWUa1YgsM71I2EVGxQ/view?usp=sharing","https://drive.google.com/file/d/1FIoaZqZ4u2q6cfPN3AiG47B8GvvDJbmV/view?usp=sharing","https://drive.google.com/file/d/1O_etxM2SIrNE5t2-tZbVUK5vWK7atMNl/view?usp=sharing",
+"https://drive.google.com/file/d/1gMmDXbElyf9AVbNaO3Gafrg1DFdPTI6P/view?usp=sharing","https://drive.google.com/file/d/19UctGYOByZbLSwR4OTNETTUgQZbYK5nr/view?usp=sharing","https://drive.google.com/file/d/1uN1fE13J9rpBvh8KoAMG3YjPz-qr_GWF/view?usp=sharing"];
 
 
 function crearLibro(nombre, mes, dia, imagen,desc){
