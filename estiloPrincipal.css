@@ -479,6 +479,10 @@ video{
 	overflow: hidden;
 	flex-grow: 1;
 }
+#publicidadADS{
+	position: relative;
+	top: 30px;
+}
 .covid img{
 	width: 430px;
 	height: 100%;
